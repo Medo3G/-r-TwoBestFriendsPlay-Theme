@@ -1,6 +1,4 @@
-/*Go to https://github.com/Medo3G/-r-TwoBestFriendsPlay-Theme for 
-
-details */
+/*Go to https://github.com/Medo3G/-r-TwoBestFriendsPlay-Theme for details */
 
 body {
 	background-color: #f1f1f1;
@@ -71,9 +69,7 @@ a:hover {
 	color: #f9b918; 
 }
 
-#sr-header-area a.RESShortcutsCurrentSub, #RESSubredditGroupDropdown 
-
-.RESShortcutsCurrentSub a {
+#sr-header-area a.RESShortcutsCurrentSub, #RESSubredditGroupDropdown .RESShortcutsCurrentSub a {
 	color: #f9b918!important; 
 }
 	
@@ -281,9 +277,7 @@ a:hover {
 	white-space: nowrap;
 	font-weight: normal;
 	font-size: 15px;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, 
-
-Arial, sans-serif;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	min-width: 450px;
 	/*Temporary fix*/
 	visibility:visible;
@@ -303,9 +297,7 @@ Arial, sans-serif;
 	color: #999;
 	font-weight: normal;
 	font-size: 22px;
-	font-family: Calibri,Candara,Segoe,"Segoe 
-
-UI",Optima,Arial,sans-serif;
+	font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
 	transition: all 0.2s;
 }
 
@@ -322,9 +314,7 @@ UI",Optima,Arial,sans-serif;
 	border-bottom: 2px solid #f9b918;
 	color: #262626;
 	font-size: 22px;
-	font-family: Calibri,Candara,Segoe,"Segoe 
-
-UI",Optima,Arial,sans-serif;
+	font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
 }
 
 .tabmenu li.selected a:hover {
@@ -332,9 +322,7 @@ UI",Optima,Arial,sans-serif;
 }
 
 /* Hides Extra Reddit Tabs */
-.tabmenu li a[href*="/rising"], .tabmenu li a[href*="/controversial"], 
-
-.tabmenu li a[href*="/gilded"],
+.tabmenu li a[href*="/rising"], .tabmenu li a[href*="/controversial"], .tabmenu li a[href*="/gilded"],
 .tabmenu li a[href*="/ads"]{
 	display:none;
 }
@@ -453,16 +441,12 @@ UI",Optima,Arial,sans-serif;
 }
 
 /* Opacity Hoves */
-#modmail, #mail, .gearIcon, #header-bottom-right a.pref-lang, 
-
-#RESAccountSwitcherIcon,
+#modmail, #mail, .gearIcon, #header-bottom-right a.pref-lang, #RESAccountSwitcherIcon,
 	.loggedin .logout a {
 	opacity: 0.75;
 }
 
-#modmail:hover, #mail:hover, #header-bottom-right a.pref-lang:hover, 
-
-#RESAccountSwitcherIcon:hover,
+#modmail:hover, #mail:hover, #header-bottom-right a.pref-lang:hover, #RESAccountSwitcherIcon:hover,
 .loggedin .logout a:hover, .gearIcon:hover {
 	opacity: 1;
 	text-decoration: none !important;
@@ -584,9 +568,7 @@ UI",Optima,Arial,sans-serif;
 	color: #707070;
 	text-transform: capitalize;
 	font-size: 25px;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, 
-
-Arial, sans-serif;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
 .titlebox h1 a:hover {
@@ -711,9 +693,7 @@ div.titlebox span.word {
 /* Subreddit description */
 .titlebox {
 	padding: 10px;
-	background: transparent !important; /*Sidebar Background 
-
-color*/
+	background: transparent !important; /*Sidebar Background color*/
 	border: 0 solid #AAA; /*Sidebar border color*/
 	color: #787878; /*Text color in sidebar*/
 	border-radius: 10px;
@@ -984,9 +964,7 @@ color*/
 	color: #999;
 	font-weight: normal;
 	font-size: 22px;
-	font-family: Calibri,Candara,Segoe,"Segoe 
-
-UI",Optima,Arial,sans-serif;
+	font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
 }
 
 .titlebox h6 a:hover {
@@ -1015,9 +993,7 @@ UI",Optima,Arial,sans-serif;
 	border-bottom: 0 solid;
 }
 
-.new-page .titlebox h6 a[href*="/new"], .top-page .titlebox h6 a
-
-[href*="/top"], .hot-page .titlebox h6 a[href*="/hot"]  {
+.new-page .titlebox h6 a[href*="/new"], .top-page .titlebox h6 a[href*="/top"], .hot-page .titlebox h6 a[href*="/hot"]  {
 	border-bottom:2px solid #F9B91A;
 	color: #262626;
 }
@@ -1029,15 +1005,9 @@ UI",Optima,Arial,sans-serif;
 	border-radius: 2px;
 }
 
-.link, .side, .submit-page .infobar, .roundfield, .submit-page 
-
-.content button,
-.content.submit .info-notice, .stylesheet-customize-container 
-
-.pretty-form, #images, .search-page .raisedbox, 
-.search-page .searchfacets, .linefield, .search-page .searchpane, 
-
-.nextprev {
+.link, .side, .submit-page .infobar, .roundfield, .submit-page .content button,
+.content.submit .info-notice, .stylesheet-customize-container .pretty-form, #images, .search-page .raisedbox, 
+.search-page .searchfacets, .linefield, .search-page .searchpane, .nextprev {
 	border: 0;
 	border-bottom: 3px solid #e5e5e5 !important;
 	background-color: #fff;
@@ -1081,9 +1051,7 @@ UI",Optima,Arial,sans-serif;
 
 /* Link Titles */
 /*Unvisited*/
-.thing .title.loggedin.click, .thing .title.click, .thing 
-
-.title.loggedin, .thing .title {
+.thing .title.loggedin.click, .thing .title.click, .thing .title.loggedin, .thing .title {
 	color:#5b92fa;
 }
 
@@ -1117,9 +1085,7 @@ UI",Optima,Arial,sans-serif;
 	height: 31px;
 }
 
-.btn:hover, button:hover, .wiki-page .wiki-page-content 
-
-.wiki_button:hover {
+.btn:hover, button:hover, .wiki-page .wiki-page-content .wiki_button:hover {
 	-moz-box-shadow: 0 1px 0 0 rgba(0,0,0,0.27);
 	-ms-box-shadow: 0 1px 0 0 rgba(0,0,0,0.27);
 	-webkit-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.27);
@@ -1127,9 +1093,7 @@ UI",Optima,Arial,sans-serif;
 	color: #4D5763;
 }
 
-.btn:active, button:active, .wiki-page .wiki-page-content 
-
-.wiki_button:active {
+.btn:active, button:active, .wiki-page .wiki-page-content .wiki_button:active {
 	-moz-box-shadow: inset 0 2px 0 #d6d6d6;
 	-ms-box-shadow: inset 0 2px 0 #d6d6d6;
 	-webkit-box-shadow: inset 0 2px 0 #D6D6D6;
@@ -1138,9 +1102,7 @@ UI",Optima,Arial,sans-serif;
 	color: #999;
 }
 
-.btn:focus, button:focus, .wiki-page .wiki-page-content 
-
-.wiki_button:focus {
+.btn:focus, button:focus, .wiki-page .wiki-page-content .wiki_button:focus {
 	outline: none;
 }
 
@@ -1203,124 +1165,72 @@ UI",Optima,Arial,sans-serif;
 }
 		
 /*  +  */
-.content .expando-button.selftext.collapsed, .res-nightmode .thing 
-
-.expando-button.selftext.collapsed,
+.content .expando-button.selftext.collapsed, .res-nightmode .thing .expando-button.selftext.collapsed,
 .res-nightmode .thing .expando-button.selftext.collapsedExpando {
 	background-position:0 -17px!important;
 }
 			
 /*  +  */
-.expando-button.image.collapsedExpando:hover, .content .expando-
-
-button.selftext.collapsed:hover,
-.res-nightmode .thing .expando-button.selftext.collapsed:hover, .res-
-
-nightmode .thing .expando-button.selftext.collapsedExpando:hover {
+.expando-button.image.collapsedExpando:hover, .content .expando-button.selftext.collapsed:hover,
+.res-nightmode .thing .expando-button.selftext.collapsed:hover, .res-nightmode .thing .expando-button.selftext.collapsedExpando:hover {
 	background-position:-16px -17px!important;
 }
 
 /*  -  */
-.res .expando-button.image.expanded, .content .expando-
-
-button.selftext.expanded,.res-nightmode .thing .expando-
-
-button.selftext.expanded,
+.res .expando-button.image.expanded, .content .expando-button.selftext.expanded,.res-nightmode .thing .expando-button.selftext.expanded,
 .res-nightmode .eb-se{
 	background-position:-32px -17px!important;
 }
 				
 /*  -  */
-.content .expando-button.selftext.expanded:hover, .res-nightmode 
-
-.thing .expando-button.selftext.expanded:hover, .res-nightmode .eb-seh 
-
-{
+.content .expando-button.selftext.expanded:hover, .res-nightmode .thing .expando-button.selftext.expanded:hover, .res-nightmode .eb-seh {
 	background-position:-48px -17px!important;
 }	
 
-.expando-button.video-muted.collapsed, .res-nightmode .expando-
-
-button.video-muted.collapsed, .expando-button.video-muted.expanded, 
-
-.eb-ve,
-.res-nightmode .expando-button.video-muted.collapsedExpando, .res-
-
-nightmode .expando-button.video-muted.expanded {
+.expando-button.video-muted.collapsed, .res-nightmode .expando-button.video-muted.collapsed, .expando-button.video-muted.expanded, .eb-ve,
+.res-nightmode .expando-button.video-muted.collapsedExpando, .res-nightmode .expando-button.video-muted.expanded {
 	background-position: -144px -57px!important;
 }
 
-.expando-button.video-muted.collapsed:hover, .eb-vch, .expando-
-
-button.video-muted.expanded:hover, .eb-veh,
-.res-nightmode .expando-button.video-muted.collapsed:hover, .res-
-
-nightmode .expando-button.video-muted.collapsedExpando:hover,
+.expando-button.video-muted.collapsed:hover, .eb-vch, .expando-button.video-muted.expanded:hover, .eb-veh,
+.res-nightmode .expando-button.video-muted.collapsed:hover, .res-nightmode .expando-button.video-muted.collapsedExpando:hover,
 .res-nightmode .expando-button.video-muted.expanded:hover {
 	background-position: -160px -57px!important;
 }
 
-.expando-button.video.collapsed, .expando-button.video.expanded, .eb-
-
-ve, .res-nightmode .thing .expando-button.video.collapsed,
-.res-nightmode .thing .expando-button.video.collapsedExpando, .res-
-
-nightmode .thing .expando-button.video.expanded{
+.expando-button.video.collapsed, .expando-button.video.expanded, .eb-ve, .res-nightmode .thing .expando-button.video.collapsed,
+.res-nightmode .thing .expando-button.video.collapsedExpando, .res-nightmode .thing .expando-button.video.expanded{
 	background-position: -64px -17px!important;
 }
 
-.expando-button.video.collapsed:hover, .eb-vch, .expando-
-
-button.video.expanded:hover, .eb-veh,
+.expando-button.video.collapsed:hover, .eb-vch, .expando-button.video.expanded:hover, .eb-veh,
 .res-nightmode .thing .expando-button.video.collapsed:hover,
-.res-nightmode .thing .expando-button.video.collapsedExpando:hover, 
-
-.res-nightmode .thing .expando-button.video.expanded:hover {
+.res-nightmode .thing .expando-button.video.collapsedExpando:hover, .res-nightmode .thing .expando-button.video.expanded:hover {
 	background-position: -80px -17px!important;
 }
 
-.res .expando-button.image.collapsed, .expando-
-
-button.image.collapsedExpando, .res .expando-button.image.expanded,
-.res-nightmode .thing .expando-button.image.collapsed, .res-nightmode 
-
-.thing .expando-button.image.collapsedExpando,
+.res .expando-button.image.collapsed, .expando-button.image.collapsedExpando, .res .expando-button.image.expanded,
+.res-nightmode .thing .expando-button.image.collapsed, .res-nightmode .thing .expando-button.image.collapsedExpando,
 .res-nightmode .thing .expando-button.image.expanded {
 	background-position: -96px -17px!important;
 }
 
-.res .expando-button.image.collapsed:hover, .expando-
-
-button.image.collapsedExpando:hover, .res .expando-
-
-button.image.expanded:hover,
-.res-nightmode .thing .expando-button.image.collapsed:hover, .res-
-
-nightmode .thing .expando-button.image.collapsedExpando:hover,
+.res .expando-button.image.collapsed:hover, .expando-button.image.collapsedExpando:hover, .res .expando-button.image.expanded:hover,
+.res-nightmode .thing .expando-button.image.collapsed:hover, .res-nightmode .thing .expando-button.image.collapsedExpando:hover,
 .res-nightmode .thing .expando-button.image.expanded:hover {
 	background-position: -112px -17px!important;
 }
 
-.expando-button.image.gallery.collapsedExpando, .res .expando-
-
-button.image.gallery.expanded,
-.res-nightmode .thing .expando-button.image.gallery.collapsed, .res-
-
-nightmode .thing .expando-button.image.gallery.collapsedExpando,
+.expando-button.image.gallery.collapsedExpando, .res .expando-button.image.gallery.expanded,
+.res-nightmode .thing .expando-button.image.gallery.collapsed, .res-nightmode .thing .expando-button.image.gallery.collapsedExpando,
 .res-nightmode .thing .expando-button.image.gallery.expanded {
 	background-position: -0 -0!important;
 	height: 17px!important;
 	width: 17px!important;
 }
 
-.expando-button.image.gallery.collapsedExpando:hover, .res .expando-
-
-button.image.gallery.expanded:hover,
-.res-nightmode .thing .expando-button.image.gallery.collapsed:hover, 
-
-.res-nightmode .thing .expando-
-
-button.image.gallery.collapsedExpando:hover,
+.expando-button.image.gallery.collapsedExpando:hover, .res .expando-button.image.gallery.expanded:hover,
+.res-nightmode .thing .expando-button.image.gallery.collapsed:hover, .res-nightmode .thing .expando-button.image.gallery.collapsedExpando:hover,
 .res-nightmode .thing .expando-button.image.gallery.expanded:hover {
 	background-position: -17px -0!important;
 	height: 17px!important;
@@ -1417,9 +1327,7 @@ button.image.gallery.collapsedExpando:hover,
 	opacity: 0;
 }
 
-.link:hover .entry li a, .link .entry p a, .link:hover .entry 
-
-.redditSingleClick {
+.link:hover .entry li a, .link .entry p a, .link:hover .entry .redditSingleClick {
 	opacity: 100;
 }
 
@@ -1453,9 +1361,7 @@ button.image.gallery.collapsedExpando:hover,
 
 .link .flat-list {
 	font-weight: normal;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, 
-
-Arial, sans-serif;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
 .link .midcol {
@@ -1620,15 +1526,9 @@ form#newlink.submit.content {
 	color: #707070;
 }
 	
-.submit-page textarea, .roundfield input[type=url], .roundfield input
-
-[type=text], .login-form-side input[type=text],
-.login-form-side input[type=password], .linefield textarea, .linefield 
-
-input[type="text"],
-.flairlist .flaircell input[type="text"], .linkinfo .shortlink input, 
-
-.search-page #search input[type=text] {
+.submit-page textarea, .roundfield input[type=url], .roundfield input[type=text], .login-form-side input[type=text],
+.login-form-side input[type=password], .linefield textarea, .linefield input[type="text"],
+.flairlist .flaircell input[type="text"], .linkinfo .shortlink input, .search-page #search input[type=text] {
 	margin: 0;
 	padding: 5px;
 	border: 1px solid #d9d9d9;
@@ -1640,31 +1540,17 @@ input[type="text"],
 	font-family: arial, sans-serif;
 }
 
-.submit-page textarea:hover, .roundfield input[type=url]:hover, 
-
-.roundfield input[type=text]:hover,
-.login-form-side input[type=text]:hover, .login-form-side input
-
-[type=password]:hover, .linefield textarea:hover,
-.linefield input[type="text"]:hover, .flairlist .flaircell input
-
-[type="text"]:hover, .linkinfo .shortlink input:hover,
+.submit-page textarea:hover, .roundfield input[type=url]:hover, .roundfield input[type=text]:hover,
+.login-form-side input[type=text]:hover, .login-form-side input[type=password]:hover, .linefield textarea:hover,
+.linefield input[type="text"]:hover, .flairlist .flaircell input[type="text"]:hover, .linkinfo .shortlink input:hover,
 .search-page #search input[type=text] {
 	border: 1px solid #bebebe;
 }
 					
-.submit-page textarea:focus, .roundfield input[type=url]:focus, 
-
-.roundfield input[type=text]:focus,
-.login-form-side input[type=text]:focus, .login-form-side input
-
-[type=password]:focus,
-.linefield textarea:focus, .linefield input[type="text"]:focus, 
-
-.flairlist .flaircell input[type="text"]:focus,
-.linkinfo .shortlink input:focus, .search-page #search input
-
-[type=text] {
+.submit-page textarea:focus, .roundfield input[type=url]:focus, .roundfield input[type=text]:focus,
+.login-form-side input[type=text]:focus, .login-form-side input[type=password]:focus,
+.linefield textarea:focus, .linefield input[type="text"]:focus, .flairlist .flaircell input[type="text"]:focus,
+.linkinfo .shortlink input:focus, .search-page #search input[type=text] {
 	border: 1px solid #4d90fe;
 	color: #000;
 }
@@ -1673,9 +1559,7 @@ input[type="text"],
 	height: 500px;
 }
 
-.submit-page .content textarea, .submit-page .content input[type=text] 
-
-{
+.submit-page .content textarea, .submit-page .content input[type=text] {
 	width: 488px;
 }
 
@@ -1936,9 +1820,7 @@ input[type="text"],
 	border: none;
 	color: #555;
 	font-size: small !important;
-	font-family: Calibri,Candara,Segoe,"Segoe 
-
-UI",Optima,Arial,sans-serif;
+	font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
 	border: 1px solid #DADADA;
 	padding: 0px 3px 2px 2px;
 	cursor: help;
@@ -1987,12 +1869,8 @@ div.tabpane-content {
 }
 
 .tabmenu li#tab-grant.selected a, .tabmenu li#tab-grant a:hover,
-.tabmenu li#tab-templates.selected a, .tabmenu li#tab-templates 
-
-a:hover, 
-.tabmenu li#tab-link_templates.selected a, .tabmenu li#tab-
-
-link_templates a:hover {
+.tabmenu li#tab-templates.selected a, .tabmenu li#tab-templates a:hover, 
+.tabmenu li#tab-link_templates.selected a, .tabmenu li#tab-link_templates a:hover {
 	color: #333;
 }
 /* WIKI Page */
@@ -2022,9 +1900,7 @@ link_templates a:hover {
 	font-size: 1.35em;
 }
 
-.wiki-page .wiki-page-content .md.wiki p, .wiki-page .wiki-page-
-
-content .md.wiki .md.wiki blockquote {
+.wiki-page .wiki-page-content .md.wiki p, .wiki-page .wiki-page-content .md.wiki .md.wiki blockquote {
 	color: #404040;
 	font-weight: normal;
 	font-size: 14px;
@@ -2107,9 +1983,7 @@ content .md.wiki .md.wiki blockquote {
 	border-bottom: 1px solid #d8d8d8;
 	border-radius: 3px;
 	color: #707070;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, 
-
-Arial, sans-serif;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 	
 .sheets .btn.right {
@@ -2186,9 +2060,7 @@ a.author {
 .comments-page .tagline {
 	color: #999;
 	font-size: small;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, 
-
-Arial, sans-serif;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
 .comments-page .tagline a {
@@ -2290,9 +2162,7 @@ a.author.moderator:after {
 	background-color: transparent;
 }
 
-.menuarea .spacer .drop-choices.lightdrop a.choice, .commentarea 
-
-.menuarea form {
+.menuarea .spacer .drop-choices.lightdrop a.choice, .commentarea .menuarea form {
 	padding: 0.5px;
 	font-size: 14px;
 	color: #5b92fa;
@@ -2476,9 +2346,7 @@ div.over18 .entry .buttons .first{
 	margin: 10px 0 10px 10px;
 }
 
-.login-form-side input[type=text], .login-form-side input
-
-[type=password] {
+.login-form-side input[type=text], .login-form-side input[type=password] {
 	margin: 10px 0;
 	width: 265px;
 }
@@ -2493,9 +2361,7 @@ div.over18 .entry .buttons .first{
 	border-radius: 2px;
 	color: #3b3b3b;
 	font-size: 16px;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, 
-
-Arial, sans-serif;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 	
 .cover {
@@ -2579,9 +2445,7 @@ Arial, sans-serif;
 	outline: 0 solid;
 }
 
-.res .RES-keyNav-activeElement, .res .commentarea .RES-keyNav-
-
-activeElement .md,
+.res .RES-keyNav-activeElement, .res .commentarea .RES-keyNav-activeElement .md,
 .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
 	background-color: transparent !important;
 }
@@ -2630,21 +2494,11 @@ html .comments-page .comment .comment,
 html .comments-page .comment .comment .comment,
 html .comments-page .comment .comment .comment .comment ,
 html .comments-page .comment .comment .comment .comment .comment ,
-html .comments-page .comment .comment .comment .comment .comment 
-
-.comment ,
-html .comments-page .comment .comment .comment .comment .comment 
-
-.comment .comment ,
-html .comments-page .comment .comment .comment .comment .comment 
-
-.comment .comment .comment ,
-html .comments-page .comment .comment .comment .comment .comment 
-
-.comment .comment .comment .comment ,
-html .comments-page .comment .comment .comment .comment .comment 
-
-.comment .comment .comment .comment .comment {
+html .comments-page .comment .comment .comment .comment .comment .comment ,
+html .comments-page .comment .comment .comment .comment .comment .comment .comment ,
+html .comments-page .comment .comment .comment .comment .comment .comment .comment .comment ,
+html .comments-page .comment .comment .comment .comment .comment .comment .comment .comment .comment ,
+html .comments-page .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
 	background-color: #FCFCFC !important;
 	border:0!important;
 }
@@ -2711,9 +2565,7 @@ html .comments-page .comment .comment .comment .comment .comment
 	background-color: #2d2d2d !important;
 }
 
-#RESShortcutsRight,#RESShortcutsLeft,#RESShortcutsAdd,#RESShortcutsTra
-
-sh {
+#RESShortcutsRight,#RESShortcutsLeft,#RESShortcutsAdd,#RESShortcutsTrash {
 	background-color: #2d2d2d !important;
 	color: #979797 !important;
 }
@@ -2872,9 +2724,7 @@ sh {
         background-color:#222;
 }
 
-#RESPrefsDropdown.RESDropdownList li:last-child, 
-
-#RESAccountSwitcherDropdown li:last-child {
+#RESPrefsDropdown.RESDropdownList li:last-child, #RESAccountSwitcherDropdown li:last-child {
 	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
 }
@@ -3053,9 +2903,7 @@ div.titlebox .md ul li:hover {
 	border-left: 4px solid #f99c18;
 	padding-left:23px;
 	background-color: #ddd;
-	transition:all 0.2s ease-in-out; /*Color you seen when ^ 
-
-hovering over sidebar items*/
+	transition:all 0.2s ease-in-out; /*Color you seen when ^ hovering over sidebar items*/
 }
 
 div.titlebox .md h3{
@@ -3167,37 +3015,17 @@ div.titlebox .md h4:before {
 
 /*  NIGHTMODE - Work in progress */
 .res-nightmode  .stylesheet-customize-container .pretty-form, 
-.res-nightmode  .search-page .raisedbox, .res-nightmode .search-page 
-
-.searchfacets,
+.res-nightmode  .search-page .raisedbox, .res-nightmode .search-page .searchfacets,
 .res-nightmode  .search-page .searchpane, .res-nightmode .nextprev,
-.res-nightmode .side, .res-nightmode .flairselector, .res-nightmode 
-
-.linefield, .res-nightmode .icon-menu a, 
-.res-nightmode .side .leavemoderator, .res-nightmode .side 
-
-.leavecontributor-button, .res-nightmode .side .titlebox, 
-.res-nightmode .side .titlebox .flairtoggle, .res-nightmode .side 
-
-.usertext-body .md ol,
-.res-nightmode .side .usertext-body .md ol ol, .res-nightmode .side 
-
-.usertext-body .md ol ol li,
-.res-nightmode .side blockquote, .res-nightmode .modactionlisting 
-
-table *, .res-nightmode .link,
-.res-nightmode .organic-listing .thing, .res-nightmode .sr-interest-
-
-bar, .res-nightmode .commentarea,
-.res-nightmode .side .titlebox form.flairtoggle, .res-nightmode 
-
-.trophy-area .content, .res-nightmode .NERPageMarker, 
-.res-nightmode .side .titlebox .usertext-body ol, .res-nightmode .side 
-
-.titlebox .usertext-body ol, 
-.res-nightmode .side .titlebox .usertext-body ul, .res-nightmode 
-
-#images, .res-nightmode div.tabpane-content  {
+.res-nightmode .side, .res-nightmode .flairselector, .res-nightmode .linefield, .res-nightmode .icon-menu a, 
+.res-nightmode .side .leavemoderator, .res-nightmode .side .leavecontributor-button, .res-nightmode .side .titlebox, 
+.res-nightmode .side .titlebox .flairtoggle, .res-nightmode .side .usertext-body .md ol,
+.res-nightmode .side .usertext-body .md ol ol, .res-nightmode .side .usertext-body .md ol ol li,
+.res-nightmode .side blockquote, .res-nightmode .modactionlisting table *, .res-nightmode .link,
+.res-nightmode .organic-listing .thing, .res-nightmode .sr-interest-bar, .res-nightmode .commentarea,
+.res-nightmode .side .titlebox form.flairtoggle, .res-nightmode .trophy-area .content, .res-nightmode .NERPageMarker, 
+.res-nightmode .side .titlebox .usertext-body ol, .res-nightmode .side .titlebox .usertext-body ol, 
+.res-nightmode .side .titlebox .usertext-body ul, .res-nightmode #images, .res-nightmode div.tabpane-content  {
 	background-color: #2b303b !important;
 	border-color: #17191A !important;
 }
@@ -3213,9 +3041,7 @@ bar, .res-nightmode .commentarea,
 
 .res-nightmode #header:after, .res-nightmode .infobar,
 .res-nightmode .comments-page .usertext.border .usertext-body,
-.res-nightmode .flairselector li.selected, .res-nightmode 
-
-.flairselector li:hover,
+.res-nightmode .flairselector li.selected, .res-nightmode .flairselector li:hover,
 .res-nightmode .hover-bubble.multi-selector label:hover  {
 	background-color: #1c1f26;
 }
@@ -3240,9 +3066,7 @@ bar, .res-nightmode .commentarea,
 	color: #ccc;
 }
 
-.res-nightmode #url-field button, .res-nightmode #url-field 
-
-button:active {
+.res-nightmode #url-field button, .res-nightmode #url-field button:active {
 	background-color: #1c1f26;
 	border-color:#232730!important;
 }
@@ -3300,36 +3124,16 @@ button:active {
 	color:#fff!important;
 }
 
-.res-nightmode .entry.RES-keyNav-activeElement div.md, .res-nightmode 
-
-.entry.RES-keyNav-activeElement .usertext-body,
-.res-nightmode .entry.RES-keyNav-activeElement div.noncollapsed, 
-
-.res-nightmode div.RES-keyNav-activeElement,
-.res-nightmode .RES-keyNav-activeElement .usertext-body, .res-
-
-nightmode .RES-keyNav-activeElement .usertext-body .md,
-.res-nightmode div.RES-keyNav-activeElement .usertext-body .md p, 
-
-.res-nightmode .RES-keyNav-activeElement .noncollapsed,
-.res-nightmode .RES-keyNav-activeElement .noncollapsed .md, .res-
-
-nightmode div.RES-keyNav-activeElement .noncollapsed .md p,
-.res-nightmode .entry.RES-keyNav-activeElement div.md, .res-nightmode 
-
-.entry.RES-keyNav-activeElement .usertext-body,
-.res-nightmode .entry.RES-keyNav-activeElement div.noncollapsed, 
-
-.res-nightmode div.RES-keyNav-activeElement,
-.res-nightmode .RES-keyNav-activeElement .usertext-body, .res-
-
-nightmode .RES-keyNav-activeElement .usertext-body .md,
-.res-nightmode div.RES-keyNav-activeElement .usertext-body .md p, 
-
-.res-nightmode .RES-keyNav-activeElement .noncollapsed,
-.res-nightmode .RES-keyNav-activeElement .noncollapsed .md, .res-
-
-nightmode div.RES-keyNav-activeElement .noncollapsed .md p {
+.res-nightmode .entry.RES-keyNav-activeElement div.md, .res-nightmode .entry.RES-keyNav-activeElement .usertext-body,
+.res-nightmode .entry.RES-keyNav-activeElement div.noncollapsed, .res-nightmode div.RES-keyNav-activeElement,
+.res-nightmode .RES-keyNav-activeElement .usertext-body, .res-nightmode .RES-keyNav-activeElement .usertext-body .md,
+.res-nightmode div.RES-keyNav-activeElement .usertext-body .md p, .res-nightmode .RES-keyNav-activeElement .noncollapsed,
+.res-nightmode .RES-keyNav-activeElement .noncollapsed .md, .res-nightmode div.RES-keyNav-activeElement .noncollapsed .md p,
+.res-nightmode .entry.RES-keyNav-activeElement div.md, .res-nightmode .entry.RES-keyNav-activeElement .usertext-body,
+.res-nightmode .entry.RES-keyNav-activeElement div.noncollapsed, .res-nightmode div.RES-keyNav-activeElement,
+.res-nightmode .RES-keyNav-activeElement .usertext-body, .res-nightmode .RES-keyNav-activeElement .usertext-body .md,
+.res-nightmode div.RES-keyNav-activeElement .usertext-body .md p, .res-nightmode .RES-keyNav-activeElement .noncollapsed,
+.res-nightmode .RES-keyNav-activeElement .noncollapsed .md, .res-nightmode div.RES-keyNav-activeElement .noncollapsed .md p {
 	background: none!important;
 }
 
@@ -3341,26 +3145,18 @@ nightmode div.RES-keyNav-activeElement .noncollapsed .md p {
 	margin-bottom: 8px!important;
 }
 
-.res-nightmode .commentingAs , .res-nightmode .menuarea 
-
-.dropdown.lightdrop .selected{
+.res-nightmode .commentingAs , .res-nightmode .menuarea .dropdown.lightdrop .selected{
 	color:#c0c0c0;
 }
 
-.res-nightmode .hasTag[style*="background-color: transparent"], .res-
-
-nightmode .flair {
+.res-nightmode .hasTag[style*="background-color: transparent"], .res-nightmode .flair {
 	background-color:#1c1f26!important;
 	color:gray!important;
 	border-color:#222;
 }
 
-.res-nightmode .hover-bubble.anchor-right.anchor-right:before,.res-
-
-nightmode  .hover-bubble.anchor-left.anchor-right:before,
-.res-nightmode  .hover-bubble.anchor-right.anchor-right:after,.res-
-
-nightmode  .hover-bubble.anchor-left.anchor-right:after {
+.res-nightmode .hover-bubble.anchor-right.anchor-right:before,.res-nightmode  .hover-bubble.anchor-left.anchor-right:before,
+.res-nightmode  .hover-bubble.anchor-right.anchor-right:after,.res-nightmode  .hover-bubble.anchor-left.anchor-right:after {
 	border-left-color: #1c1f26;
 }
 
@@ -3380,32 +3176,20 @@ nightmode  .hover-bubble.anchor-left.anchor-right:after {
 	border-bottom:#1c1f26!important;
 }
 
-.res-nightmode .RESDialogSmall, .res-nightmode .flairselector.drop-
-
-choices.active {
+.res-nightmode .RESDialogSmall, .res-nightmode .flairselector.drop-choices.active {
 	border-color:#222!important;
 }
 
-.res-nightmode .usertext-edit .RESDialogSmall .md, .res-nightmode 
-
-#authorInfoToolTip,
-.res-nightmode  #authorInfoToolTipClose, .res-nightmode  
-
-#authorInfoToolTip,
-.res-nightmode .subredditInfoToolTip, .res-nightmode  
-
-.subredditInfoToolTipClose,
+.res-nightmode .usertext-edit .RESDialogSmall .md, .res-nightmode #authorInfoToolTip,
+.res-nightmode  #authorInfoToolTipClose, .res-nightmode  #authorInfoToolTip,
+.res-nightmode .subredditInfoToolTip, .res-nightmode  .subredditInfoToolTipClose,
 .res-nightmode  .subredditInfoToolTip,.res-nightmode .RESDialogSmall,
 .res-nightmode .modal-content, .res-nightmode .modal-header {
 	background-color:#222!important
 }
 
-.res-nightmode #authorInfoToolTip:before, .res-nightmode 
-
-#authorInfoToolTip:after,
-.res-nightmode subredditInfoToolTip:before, .res-nightmode 
-
-#subredditInfoToolTip:after{
+.res-nightmode #authorInfoToolTip:before, .res-nightmode #authorInfoToolTip:after,
+.res-nightmode subredditInfoToolTip:before, .res-nightmode #subredditInfoToolTip:after{
 	 border-color: transparent  #1c1f26 !important;
 }
 .res-nightmode .livePreview .md a {
@@ -3450,24 +3234,16 @@ choices.active {
 	background-color: #2d5e77;
 }
 
-.res-nightmode .fancy-toggle-button .remove, .res-nightmode 
-
-.RESSubscriptionButton.unsubscribe,
+.res-nightmode .fancy-toggle-button .remove, .res-nightmode .RESSubscriptionButton.unsubscribe,
 .res-nightmode .RESSubscriptionButton {
 	background-color: #1c1f26!important;
 	border-color: #222!important;
 	box-shadow: 0 1px 0 #222!important;
 }
 
-.res-nightmode .fancy-toggle-button .remove:hover, .res-nightmode 
-
-.RESSubscriptionButton.unsubscribe:hover,
-.res-nightmode .RESSubscriptionButton:hover, .res-nightmode .fancy-
-
-toggle-button .remove:active, 
-.res-nightmode .RESSubscriptionButton.unsubscribe:active, .res-
-
-nightmode .RESSubscriptionButton:active {
+.res-nightmode .fancy-toggle-button .remove:hover, .res-nightmode .RESSubscriptionButton.unsubscribe:hover,
+.res-nightmode .RESSubscriptionButton:hover, .res-nightmode .fancy-toggle-button .remove:active, 
+.res-nightmode .RESSubscriptionButton.unsubscribe:active, .res-nightmode .RESSubscriptionButton:active {
 	background-color: #1c1f26!important;
 	border-color: #222!important;
 }
@@ -3480,15 +3256,11 @@ nightmode .RESSubscriptionButton:active {
 	border-bottom-color: #3D4D3B!important;
 }
 
-.res-nightmode .thing.stickied a.title, .res-nightmode .thing.stickied 
-
-a {
+.res-nightmode .thing.stickied a.title, .res-nightmode .thing.stickied a {
 	color: #65b354!important;
 }
 
-.res-nightmode .res .blueButton, .res-nightmode #quickMessageDialog 
-
-input[type=button]{
+.res-nightmode .res .blueButton, .res-nightmode #quickMessageDialog input[type=button]{
 	background-color:#377798!important;
 }
 
@@ -3547,17 +3319,13 @@ input[type=button]{
 	color: gray!important;
 }
 
-.res-nightmode .content button:hover, .res-nightmode button:hover, 
-
-.res-nightmode .res .content .RESBigEditorPop:hover {
+.res-nightmode .content button:hover, .res-nightmode button:hover, .res-nightmode .res .content .RESBigEditorPop:hover {
 	background-color: #1e222c!important;
 	border-color: #222!important;
 	color: gray !important;
 }
 
-.res-nightmode .content button:active, .res-nightmode button:active, 
-
-.res-nightmode .res .content .RESBigEditorPop:active {
+.res-nightmode .content button:active, .res-nightmode button:active, .res-nightmode .res .content .RESBigEditorPop:active {
 	background-color: #363b48!important;
 	border-color: #363b48!important;
 	color: #444 !important;
@@ -3598,66 +3366,34 @@ input[type=button]{
 	background-color: #2b303b!important;
 }
 
-.res-nightmode .login-form-side input[type=text], .res-nightmode 
-
-.login-form input[name*="passwd"],
-.res-nightmode .linkinfo .shortlink input, .res-nightmode input
-
-[type="text"], .res-nightmode .token-input-list-facebook,
-.res-nightmode #quickMessage textarea, .res-nightmode #quickMessage 
-
-select,.res-nightmode .submit textarea,
-.res-nightmode .hover-bubble.multi-selector .create-multi input, 
-
-.res-nightmode #quickMessageDialog input[type=text],
-.res-nightmode #quickMessageDialog textarea, .res-nightmode .submit 
-
-#url, .res-nightmode .submit #sr-autocomplete,
-.res-nightmode .usertext-edit textarea, .res-nightmode .c-form-control 
-
-{
+.res-nightmode .login-form-side input[type=text], .res-nightmode .login-form input[name*="passwd"],
+.res-nightmode .linkinfo .shortlink input, .res-nightmode input[type="text"], .res-nightmode .token-input-list-facebook,
+.res-nightmode #quickMessage textarea, .res-nightmode #quickMessage select,.res-nightmode .submit textarea,
+.res-nightmode .hover-bubble.multi-selector .create-multi input, .res-nightmode #quickMessageDialog input[type=text],
+.res-nightmode #quickMessageDialog textarea, .res-nightmode .submit #url, .res-nightmode .submit #sr-autocomplete,
+.res-nightmode .usertext-edit textarea, .res-nightmode .c-form-control {
 	background-color: #444444!important;
 	color: gray!important;
 	transition: color  0.2s;
 	border-color:#232730!important;
 }
 
-.res-nightmode .login-form-side input[type=text]:focus, .res-nightmode 
-
-.login-form input[name*="passwd"]:focus,
-.res-nightmode .linkinfo .shortlink input:focus, .res-nightmode input
-
-[type="text"]:focus,
-.res-nightmode .token-input-list-facebook:focus, .res-nightmode 
-
-#quickMessage textarea:focus,
-.res-nightmode #quickMessage select:focus, .res-nightmode .submit 
-
-textarea:focus, .res-nightmode .submit #url:focus,
-.res-nightmode .submit #sr-autocomplete:focus, .res-nightmode 
-
-.usertext-edit textarea:focus,
-.res-nightmode .usertext-edit .RESDialogSmall .md, .res-nightmode 
-
-.RESDialogSmall:focus,
+.res-nightmode .login-form-side input[type=text]:focus, .res-nightmode .login-form input[name*="passwd"]:focus,
+.res-nightmode .linkinfo .shortlink input:focus, .res-nightmode input[type="text"]:focus,
+.res-nightmode .token-input-list-facebook:focus, .res-nightmode #quickMessage textarea:focus,
+.res-nightmode #quickMessage select:focus, .res-nightmode .submit textarea:focus, .res-nightmode .submit #url:focus,
+.res-nightmode .submit #sr-autocomplete:focus, .res-nightmode .usertext-edit textarea:focus,
+.res-nightmode .usertext-edit .RESDialogSmall .md, .res-nightmode .RESDialogSmall:focus,
 .res-nightmode .hover-bubble.multi-selector .create-multi input:focus,
-.res-nightmode #quickMessageDialog input[type=text]:focus, .res-
-
-nightmode #quickMessageDialog textarea:focus,
-.res-nightmode .submit #url:focus, .res-nightmode .submit #sr-
-
-autocomplete:focus,
-.res-nightmode .usertext-edit textarea:focus, .res-nightmode .c-form-
-
-control:focus {
+.res-nightmode #quickMessageDialog input[type=text]:focus, .res-nightmode #quickMessageDialog textarea:focus,
+.res-nightmode .submit #url:focus, .res-nightmode .submit #sr-autocomplete:focus,
+.res-nightmode .usertext-edit textarea:focus, .res-nightmode .c-form-control:focus {
 	color: #fff!important;
 	transition: color  0.2s;
 }
 
 /* Nightmode SUBMIT LINK OR POST */
-.res-nightmode .sidebox, .res-nightmode .sidebox:hover, .res-nightmode 
-
-.sidebox:active {
+.res-nightmode .sidebox, .res-nightmode .sidebox:hover, .res-nightmode .sidebox:active {
 	background-color: transparent!important;
 }
 
@@ -3677,9 +3413,7 @@ control:focus {
 	background-position: -106px -103px;
 }
 
-.res-nightmode .titlebox h6 a[href*="http://www.reddit.com#top"]:hover 
-
-{
+.res-nightmode .titlebox h6 a[href*="http://www.reddit.com#top"]:hover {
 	background-position: -141px -103px;
 }
 
@@ -3695,9 +3429,7 @@ control:focus {
 	color: #a2a2a2;
 }
 
-.res-nightmode .titlebox h6 a:hover , .res-nightmode .titlebox h6 
-
-a:active,
+.res-nightmode .titlebox h6 a:hover , .res-nightmode .titlebox h6 a:active,
 .res-nightmode .new-page .titlebox h6 a[href*="/new"],
 .res-nightmode .top-page .titlebox h6 a[href*="/top"],
 .res-nightmode .hot-page .titlebox h6 a[href*="/hot"]{
@@ -3747,9 +3479,7 @@ a:active,
 .res.res-nightmode .midcol .arrow:hover {
 	width: 27px;
 	height: 27px;
-	background: url(%%spritesheet%%) no-repeat -9999px -9999px!
-
-important;
+	background: url(%%spritesheet%%) no-repeat -9999px -9999px!important;
 }
 
 .res.res-nightmode .midcol .arrow.up {
@@ -3786,77 +3516,37 @@ important;
 
 html.res-nightmode.res-commentBoxes .comments-page .comment,
 html.res-nightmode.res-commentBoxes .comments-page .comment .comment,
-html.res-nightmode.res-commentBoxes .comments-page .comment .comment 
-
-.comment,
-html.res-nightmode.res-commentBoxes .comments-page .comment .comment 
-
-.comment .comment,
-html.res-nightmode.res-commentBoxes .comments-page .comment .comment 
-
-.comment .comment .comment,
-html.res-nightmode.res-commentBoxes .comments-page .comment .comment 
-
-.comment .comment .comment .comment,
-html.res-nightmode.res-commentBoxes .comments-page .comment .comment 
-
-.comment .comment .comment .comment .comment,
-html.res-nightmode.res-commentBoxes .comments-page .comment .comment 
-
-.comment .comment .comment .comment .comment .comment,
-html.res-nightmode.res-commentBoxes .comments-page .comment .comment 
-
-.comment .comment .comment .comment .comment .comment .comment,
-html.res-nightmode.res-commentBoxes .comments-page .comment .comment 
-
-.comment .comment .comment .comment .comment .comment .comment 
-
-.comment{
+html.res-nightmode.res-commentBoxes .comments-page .comment .comment .comment,
+html.res-nightmode.res-commentBoxes .comments-page .comment .comment .comment .comment,
+html.res-nightmode.res-commentBoxes .comments-page .comment .comment .comment .comment .comment,
+html.res-nightmode.res-commentBoxes .comments-page .comment .comment .comment .comment .comment .comment,
+html.res-nightmode.res-commentBoxes .comments-page .comment .comment .comment .comment .comment .comment .comment,
+html.res-nightmode.res-commentBoxes .comments-page .comment .comment .comment .comment .comment .comment .comment .comment,
+html.res-nightmode.res-commentBoxes .comments-page .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+html.res-nightmode.res-commentBoxes .comments-page .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{
 	background-color: #2b303b !important;
 	border-color: transparent !important;
 }
 
 /* text */
-.res-nightmode .domain a, .res-nightmode .entry .buttons li a, .res-
-
-nightmode .link .tagline, .res-nightmode .tabmenu li a,
-.res-nightmode .thing .title:visited, .res-nightmode .thing.visited 
-
-.title, .res-nightmode comments-page .tagline,
-.res-nightmode .comment .expand, .res-nightmode .titlebox h6 a, .res-
-
-nightmode .titlebox .bottom,
+.res-nightmode .domain a, .res-nightmode .entry .buttons li a, .res-nightmode .link .tagline, .res-nightmode .tabmenu li a,
+.res-nightmode .thing .title:visited, .res-nightmode .thing.visited .title, .res-nightmode comments-page .tagline,
+.res-nightmode .comment .expand, .res-nightmode .titlebox h6 a, .res-nightmode .titlebox .bottom,
 .res-nightmode #siteTable .visited.link .title.loggedin,
-.res-nightmode #siteTable .link .title.loggedin:visited, .res-
-
-nightmode #siteTable .link .title:visited, 
-.res-nightmode #siteTable .link .title.loggedin.click,	.res-nightmode 
-
-.organic-listing .link .title:visited,
-.res-nightmode .tabmenu li a, .res-nightmode .login-form, .res-
-
-nightmode .login-form-side .submit,
-.res-nightmode #header-bottom-right, .res-nightmode .entry .domain a, 
-
-.res-nightmode .entry time,
+.res-nightmode #siteTable .link .title.loggedin:visited, .res-nightmode #siteTable .link .title:visited, 
+.res-nightmode #siteTable .link .title.loggedin.click,	.res-nightmode .organic-listing .link .title:visited,
+.res-nightmode .tabmenu li a, .res-nightmode .login-form, .res-nightmode .login-form-side .submit,
+.res-nightmode #header-bottom-right, .res-nightmode .entry .domain a, .res-nightmode .entry time,
 .res-nightmode .redditSingleClick {
 	color: #6A7A88!important
 }
 
 .res-nightmode > .content > .spacer > .sitetable::before, 
-.res-nightmode > .content > .sharelink ~ .sitetable::before, .res-
-
-nightmode .side .age,
-.res-nightmode .trophy-info *, .res-nightmode .golddvertisement, 
-
-.res-nightmode .flair-jump .title, 
-.res-nightmode #siteTable .thing .title.loggedin, .res-nightmode 
-
-#siteTable .thing .title, 
+.res-nightmode > .content > .sharelink ~ .sitetable::before, .res-nightmode .side .age,
+.res-nightmode .trophy-info *, .res-nightmode .golddvertisement, .res-nightmode .flair-jump .title, 
+.res-nightmode #siteTable .thing .title.loggedin, .res-nightmode #siteTable .thing .title, 
 .res-nightmode .NERdupe p.title::after, .res-nightmode .savedComment, 
-.res-nightmode .organic-listing .thing .title, .res-nightmode .tabmenu 
-
-li a:hover{
+.res-nightmode .organic-listing .thing .title, .res-nightmode .tabmenu li a:hover{
 	color: #EBEBEB;
 }
 
@@ -3868,15 +3558,9 @@ li a:hover{
 	margin: 8px 0 0 0;
 }
 
-.res-nightmode #header-bottom-left, .res-nightmode ul.tabmenu 
-
-li.selected a, .res-nightmode .redditname a.active, 
-.res-nightmode .RESDashboardToggle,  .res-nightmode #sr-more-link, 
-
-.res-nightmode #RESConsoleTopBar, .res-nightmode .moduleHeader,
-.res-nightmode .allOptionsContainer, .res-nightmode .optionContainer, 
-
-.res-nightmode .footer, .res-nightmode .tabmenu li a,
+.res-nightmode #header-bottom-left, .res-nightmode ul.tabmenu li.selected a, .res-nightmode .redditname a.active, 
+.res-nightmode .RESDashboardToggle,  .res-nightmode #sr-more-link, .res-nightmode #RESConsoleTopBar, .res-nightmode .moduleHeader,
+.res-nightmode .allOptionsContainer, .res-nightmode .optionContainer, .res-nightmode .footer, .res-nightmode .tabmenu li a,
 .res-nightmode #header-bottom-right {
 	background-color: transparent !important;
 }
@@ -3918,27 +3602,13 @@ li.selected a, .res-nightmode .redditname a.active,
 	background-image: url(%%nightheadertop%%);
 }
 
-.res-nightmode .share-button .option, .res-nightmode #subscribe a, 
-
-.res-nightmode .share .option,
-.res-nightmode .tagline a, .res-nightmode .tagline .head 
-
-.author,.res-nightmode .footer a,
-.res-nightmode .wired a, .res-nightmode .side a, .res-nightmode 
-
-.subredditbox li a, 
-.res-nightmode .link .score.dislikes, .res-nightmode .linkcompressed 
-
-.score.dislikes,
-.res-nightmode a[rel="tag"], .res-nightmode .dsq-help, .res-nightmode 
-
-#authorInfoToolTip h3 a,
-.res-nightmode .RES-keyNav-activeElement .md, .res-nightmode .help-
-
-toggle .option,
-.res-nightmode .morecomments a, .res-nightmode .reddiquette, .res-
-
-nightmode .parent .author,
+.res-nightmode .share-button .option, .res-nightmode #subscribe a, .res-nightmode .share .option,
+.res-nightmode .tagline a, .res-nightmode .tagline .head .author,.res-nightmode .footer a,
+.res-nightmode .wired a, .res-nightmode .side a, .res-nightmode .subredditbox li a, 
+.res-nightmode .link .score.dislikes, .res-nightmode .linkcompressed .score.dislikes,
+.res-nightmode a[rel="tag"], .res-nightmode .dsq-help, .res-nightmode #authorInfoToolTip h3 a,
+.res-nightmode .RES-keyNav-activeElement .md, .res-nightmode .help-toggle .option,
+.res-nightmode .morecomments a, .res-nightmode .reddiquette, .res-nightmode .parent .author,
 .res-nightmode .parent .subreddit, .res-nightmode .comment .md p a,
 .res-nightmode .livePreview .md a, .res-nightmode .md a del {
 	color: #3d8ab2;
@@ -4046,9 +3716,7 @@ a[href$="/spoiler"][title]::before {
 }
 
 .flair-matt , .res-nightmode .flair-matt {
-	background: linear-gradient(to bottom, #295bd3 50%, #bf201b 
-
-50%);
+	background: linear-gradient(to bottom, #295bd3 50%, #bf201b 50%);
 	border: 1px solid #000;
 	color: #fff!important;
 	font-family:"Verdana";
@@ -4096,35 +3764,19 @@ div.titlebox .users-online span.number:after {
 
 /* CUSTOM LOGO CSS */
 .pagename a {
-	top: 0!important; /* The length the logo is moved from the top 
-
-of the page */
+	top: 0!important; /* The length the logo is moved from the top of the page */
 	width: 900px; /* TOTAL Image width */
-	margin-left: -450px; /* This HAS to be ->50%< of the TOTAL 
-
-image width. Don't delete the MINUS! */
+	margin-left: -450px; /* This HAS to be ->50%< of the TOTAL image width. Don't delete the MINUS! */
 	height: 150px; /* 50% of the TOTAL height of the image. */
 }
 
 /*Woolie Mode */ 
-html[lang^="wm"] .titlebox h5 a, html[lang^="wm"] .sidecontentbox 
-
-a.helplink,
-html[lang^="wm"] .morelink:hover, html[lang^="wm"] .subscriber 
-
-.morelink a:after, html[lang^="wm"] titlebox h1 a:hover,
-html[lang^="wm"] .fancy-toggle-button .add, html[lang^="wm"] .submit-
-
-page .tabmenu.formtab .selected a,
-html[lang^="wm"] #RESMainGearOverlay, html[lang^="wm"] 
-
-.moduleToggle.enabled .toggleOn,
-html[lang^="wm"] .toggleButton.enabled .toggleOn, html[lang^="wm"] 
-
-.moduleToggle:not(.enabled) .toggleOff,
-html[lang^="wm"] div.titlebox .md h3, html[lang^="wm"] .res-nightmode 
-
-div.titlebox .md h3 {
+html[lang^="wm"] .titlebox h5 a, html[lang^="wm"] .sidecontentbox a.helplink,
+html[lang^="wm"] .morelink:hover, html[lang^="wm"] .subscriber .morelink a:after, html[lang^="wm"] titlebox h1 a:hover,
+html[lang^="wm"] .fancy-toggle-button .add, html[lang^="wm"] .submit-page .tabmenu.formtab .selected a,
+html[lang^="wm"] #RESMainGearOverlay, html[lang^="wm"] .moduleToggle.enabled .toggleOn,
+html[lang^="wm"] .toggleButton.enabled .toggleOn, html[lang^="wm"] .moduleToggle:not(.enabled) .toggleOff,
+html[lang^="wm"] div.titlebox .md h3, html[lang^="wm"] .res-nightmode div.titlebox .md h3 {
 	background-color:#2b4f1c;
 }
 
@@ -4140,25 +3792,15 @@ html[lang^="wm"] #sr-header-area .drop-choices.srdrop a:hover{
 	background-color:#2b4f1c!important;
 }
 
-html[lang^="wm"] #sr-header-area a:hover, html[lang^="wm"] #sr-
-
-header-area .selected a,
-html[lang^="wm"] #sr-header-area .width-clip .dropdown.srdrop 
-
-.selected.title:hover, html[lang^="wm"] .side:after,
-html[lang^="wm"] a[href="#s"]:hover,html[lang^="wm"] a
-
-[href="#spoiler"]:hover , html[lang^="wm"] .titlebox h1 a:hover,
+html[lang^="wm"] #sr-header-area a:hover, html[lang^="wm"] #sr-header-area .selected a,
+html[lang^="wm"] #sr-header-area .width-clip .dropdown.srdrop .selected.title:hover, html[lang^="wm"] .side:after,
+html[lang^="wm"] a[href="#s"]:hover,html[lang^="wm"] a[href="#spoiler"]:hover , html[lang^="wm"] .titlebox h1 a:hover,
 html[lang^="wm"] .res-nightmode .titlebox h1 a:hover {
 	color:#2b4f1c;
 }
 
-html[lang^="wm"] .RESshortcutside, html[lang^="wm"] 
-
-.RESDashboardToggle,
-html[lang^="wm"] .res-nightmode .RESshortcutside, html[lang^="wm"] 
-
-.res-nightmode .RESDashboardToggle{
+html[lang^="wm"] .RESshortcutside, html[lang^="wm"] .RESDashboardToggle,
+html[lang^="wm"] .res-nightmode .RESshortcutside, html[lang^="wm"] .res-nightmode .RESDashboardToggle{
 	color:#2b4f1c!important;
 }
 
@@ -4173,9 +3815,7 @@ html[lang^="wm"] .RESSubscriptionButton{
 }
 
 html[lang^="wm"] #header, html[lang^="wm"] .res-nightmode #header{
-	background: #2b4f1c url(%%woolieheader%%) no-repeat 50% 0%!
-
-important;
+	background: #2b4f1c url(%%woolieheader%%) no-repeat 50% 0%!important;
 }
 
 html[lang^="wm"] #header-img {
@@ -4229,24 +3869,14 @@ html[lang^="wm"] .tabmenu li.selected a {
 	border-bottom: 2px solid #2b4f1c;
 }
 
-html[lang^="wm"] .tabmenu li.selected a:hover, html[lang^="wm"] .res-
-
-nightmode .tabmenu li.selected a:hover {
+html[lang^="wm"] .tabmenu li.selected a:hover, html[lang^="wm"] .res-nightmode .tabmenu li.selected a:hover {
 	border-color: #407629;
 }
 
-html[lang^="wm"] .morelink:active, html[lang^="wm"] .fancy-toggle-
-
-button .add:hover,
-html[lang^="wm"] .fancy-toggle-button .add:active, html[lang^="wm"] 
-
-.fancy-toggle-button .add:after,
-html[lang^="wm"] .side .titlebox .md h3:hover,html[lang^="wm"] 
-
-.sidecontentbox a.helplink:hover , 
-html[lang^="wm"] .sidecontentbox a.helplink:active, html[lang^="wm"] 
-
-.titlebox h5 a:hover {
+html[lang^="wm"] .morelink:active, html[lang^="wm"] .fancy-toggle-button .add:hover,
+html[lang^="wm"] .fancy-toggle-button .add:active, html[lang^="wm"] .fancy-toggle-button .add:after,
+html[lang^="wm"] .side .titlebox .md h3:hover,html[lang^="wm"] .sidecontentbox a.helplink:hover , 
+html[lang^="wm"] .sidecontentbox a.helplink:active, html[lang^="wm"] .titlebox h5 a:hover {
 	 background-color: #407629;
 }
 
@@ -4263,9 +3893,7 @@ html[lang^="wm"] .titlebox h6 a:hover {
 	border-bottom: 2px solid #407629;
 }
 
-html[lang^="wm"] .new-page .titlebox h6 a[href*="/new"], html
-
-[lang^="wm"] .top-page .titlebox h6 a[href*="/top"],
+html[lang^="wm"] .new-page .titlebox h6 a[href*="/new"], html[lang^="wm"] .top-page .titlebox h6 a[href*="/top"],
 html[lang^="wm"] .hot-page .titlebox h6 a[href*="/hot"]{
 	border-bottom:2px solid #2b4f1c;
 }
@@ -4335,9 +3963,7 @@ html[lang^="wm"] .linkflair-ftf .thumbnail {
 }
 
 html[lang^="wm"] .flair {
-	background:linear-gradient(to bottom,	#fac409,	
-
-#fac409	50%,	#000	50%,	#000);
+	background:linear-gradient(to bottom,	#fac409,	#fac409	50%,	#000	50%,	#000);
 	border: 1px solid #000;
 	color: #fff!important;
 	font-family:"Verdana";
@@ -4349,21 +3975,15 @@ html[lang^="wm"] .RESSubscriptionButton:hover {
 	color: #407629 !important;
 }
 
-html[lang^="wm"] .titlebox .usertext .md > h1, html[lang^="wm"] .res-
-
-nightmode .titlebox .usertext .md > h1 {
+html[lang^="wm"] .titlebox .usertext .md > h1, html[lang^="wm"] .res-nightmode .titlebox .usertext .md > h1 {
 	background-color: #303030;
 	border-bottom: 1px solid #2b4f1c;
 }
-html[lang^="wm"] .titlebox .usertext .md > h1:after, html[lang^="wm"] 
-
-.res-nightmode .titlebox .usertext .md > h1:after {
+html[lang^="wm"] .titlebox .usertext .md > h1:after, html[lang^="wm"] .res-nightmode .titlebox .usertext .md > h1:after {
 	border-color: transparent #2b4f1c transparent transparent;
 }
 
-html[lang^="wm"] div.titlebox .md ul li:hover, html[lang^="wm"] .res-
-
-nightmode div.titlebox .md ul li:hover {
+html[lang^="wm"] div.titlebox .md ul li:hover, html[lang^="wm"] .res-nightmode div.titlebox .md ul li:hover {
 	border-left: 4px solid #2b4f1c;
 }
 
@@ -4399,9 +4019,7 @@ html[lang^="wm"]  .res-nightmode .tabmenu li.selected a {
 	border-bottom: 2px solid #2b4f1c !important;
 }
 
-html[lang^="wm"] #search input[type=text]:focus, html[lang^="wm"] 
-
-.res-nightmode #search input[type=text]:focus{
+html[lang^="wm"] #search input[type=text]:focus, html[lang^="wm"] .res-nightmode #search input[type=text]:focus{
 	border-left: 2px solid #2b4f1c;
 }
 
@@ -4428,51 +4046,31 @@ html[lang^="wm"] .res.res-nightmode .midcol .arrow.downmod {
 	width: 34px!important;
 }
 
-html[lang^="wm"] .flair-pat , html[lang^="wm"] .res-nightmode .flair-
-
-pat {
-	background:  linear-gradient(to bottom,#e57226,#e57226)!
-
-important;
+html[lang^="wm"] .flair-pat , html[lang^="wm"] .res-nightmode .flair-pat {
+	background:  linear-gradient(to bottom,#e57226,#e57226)!important;
 	text-shadow: none;
 	font-size:12px!important;
 }
 
-html[lang^="wm"] .flair-woolie , html[lang^="wm"] .res-nightmode 
-
-.flair-woolie {
-	background: linear-gradient(to bottom, #2b4f1c,  #2b4f1c)!
-
-important;
+html[lang^="wm"] .flair-woolie , html[lang^="wm"] .res-nightmode .flair-woolie {
+	background: linear-gradient(to bottom, #2b4f1c,  #2b4f1c)!important;
 	text-shadow: none;
 	font-size:12px!important;
 }
 
-html[lang^="wm"] .flair-matt , html[lang^="wm"] .res-nightmode 
-
-.flair-matt {
-	background: linear-gradient(to bottom,  #295bd3,    #295bd3  
-
-50%,    #bf201b        50%,    #bf201b);
+html[lang^="wm"] .flair-matt , html[lang^="wm"] .res-nightmode .flair-matt {
+	background: linear-gradient(to bottom,  #295bd3,    #295bd3  50%,    #bf201b        50%,    #bf201b);
 	text-shadow: none;
 	font-size:12px!important;
 }
 
-html[lang^="wm"] .flair-liam , html[lang^="wm"] .res-nightmode 
-
-.flair-liam {
-	background:  linear-gradient(to bottom,#ff69b4,#ff69b4)!
-
-important;
+html[lang^="wm"] .flair-liam , html[lang^="wm"] .res-nightmode .flair-liam {
+	background:  linear-gradient(to bottom,#ff69b4,#ff69b4)!important;
 	text-shadow: none;
 	font-size:12px!important;
 }
-html[lang^="wm"] .flair-plague , html[lang^="wm"] .res-nightmode 
-
-.flair-plague {
-	background:  linear-gradient(to bottom,#2d3063,#2d3063)!
-
-important;
+html[lang^="wm"] .flair-plague , html[lang^="wm"] .res-nightmode .flair-plague {
+	background:  linear-gradient(to bottom,#2d3063,#2d3063)!important;
 	text-shadow: none;
 	font-size:12px!important;
 }
@@ -4504,16 +4102,8 @@ html[lang^="wm"] .md:after{
 	font-size: smaller;
 }
 
-html[lang^="wm"]  .thing .title.loggedin.click:after, html[lang^="wm"] 
-
-.thing .title.click:after, html[lang^="wm"] .thing 
-
-.title.loggedin:after,
-html[lang^="wm"] .thing .title[class="title may-blank "]:after, html
-
-[lang^="wm"] .thing .title[class="title may-blank  srTagged 
-
-imgScanned"]:after{
+html[lang^="wm"]  .thing .title.loggedin.click:after, html[lang^="wm"] .thing .title.click:after, html[lang^="wm"] .thing .title.loggedin:after,
+html[lang^="wm"] .thing .title[class="title may-blank "]:after, html[lang^="wm"] .thing .title[class="title may-blank  srTagged imgScanned"]:after{
 	content:" (Sponsored by Uber)";
 	font-size: smaller;
 }
@@ -4540,9 +4130,7 @@ html[lang^="wm"] .titlebox h1 a:after{
 	font-size:25px;
 }
 
-html[lang^="wm"]  #search, html[lang^="wm"] .search-page .submit-link 
-
-{
+html[lang^="wm"]  #search, html[lang^="wm"] .search-page .submit-link {
 	padding-top:30px;
 }
 
@@ -4558,26 +4146,10 @@ html[lang^="wm"] .side h4:nth-of-type(1){
 html[lang^="wm"] .side h4:nth-of-type(1):after{
 	font-size:15.4px;
 	padding:2px;
-	content: "I wanna take you for a ride | I wanna take you for a 
-
-ride | I wanna take you for a ride | I wanna take you for a ride  | I 
-
-wanna take you for a ride | I wanna take you for a ride | I wanna take 
-
-you for a ride | I wanna take you for a ride | I wanna take you for a 
-
-ride | I wanna take you for a ride | I wanna take you for a ride | I 
-
-wanna take you for a ride | I wanna take you for a ride | I wanna take 
-
-you for a ride | I wanna take you for a ride | I wanna take you for a 
-
-ride | I wanna take you for a ride";
+	content: "I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride  | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride";
 }
 
-html[lang^="wm"] .titlebox h5:nth-of-type(1) a, html[lang^="wm"] 
-
-.titlebox h5:nth-of-type(2) a{
+html[lang^="wm"] .titlebox h5:nth-of-type(1) a, html[lang^="wm"] .titlebox h5:nth-of-type(2) a{
 	font-size:0;
 }
 
@@ -4591,55 +4163,21 @@ html[lang^="wm"] .titlebox h5:nth-of-type(2) a:after{
 	content:"Needs More Salt Channel";
 }
 
-html[lang^="wm"] #mail, html[lang^="wm"] #modmail, html[lang^="wm"] 
-
-#header-bottom-right a.pref-lang, html[lang^="wm"] .loggedin .logout 
-
-a,
-html[lang^="wm"] .gearIcon, html[lang^="wm"] #RESAccountSwitcherIcon, 
-
-html[lang^="wm"] #search input[type=text],
-html[lang^="wm"] .icon-menu .reddit-edit:before, html[lang^="wm"] 
-
-.icon-menu .moderator-mail:before,
-html[lang^="wm"] .icon-menu .reddit-moderators:before, html
-
-[lang^="wm"] .icon-menu .reddit-contributors:before,
-html[lang^="wm"] .icon-menu .reddit-traffic:before, html[lang^="wm"] 
-
-.icon-menu .reddit-modqueue:before,
-html[lang^="wm"] .icon-menu .reddit-reported:before, html[lang^="wm"] 
-
-.icon-menu .reddit-spam:before,
-html[lang^="wm"] .icon-menu .reddit-ban:before, html[lang^="wm"] 
-
-.icon-menu .reddit-flair:before,
-html[lang^="wm"] .icon-menu .reddit-moderationlog:before, html
-
-[lang^="wm"] .titlebox h6 a[href*="http://www.reddit.com#top"],
-html[lang^="wm"] .thing.stickied a.thumbnail, html[lang^="wm"] .arrow, 
-
-html[lang^="wm"] .expando-button,
-html[lang^="wm"] .res-nightmode .thing .expando-button, html
-
-[lang^="wm"] .thumbnail.self, html[lang^="wm"] .thumbnail.default,
-html[lang^="wm"] .thumbnail.nsfw, html[lang^="wm"] #url-field button, 
-
-html[lang^="wm"] .linkflair-mod .thumbnail,
-html[lang^="wm"] .linkflair-ftf .thumbnail, html[lang^="wm"] 
-
-.RESUserTagImage,
-html[lang^="wm"].res-nightmode .titlebox h6 a
-
-[href*="http://www.reddit.com#top"], html[lang^="wm"] .res.res-
-
-nightmode .midcol .arrow,
-html[lang^="wm"] .res.res-nightmode .midcol .arrow:hover, html
-
-[lang^="wm"] .res.res-nightmode .midcol .arrow.up,
-html[lang^="wm"] .res.res-nightmode .midcol .arrow.upmod, html
-
-[lang^="wm"] .res.res-nightmode .midcol .arrow.down,
+html[lang^="wm"] #mail, html[lang^="wm"] #modmail, html[lang^="wm"] #header-bottom-right a.pref-lang, html[lang^="wm"] .loggedin .logout a,
+html[lang^="wm"] .gearIcon, html[lang^="wm"] #RESAccountSwitcherIcon, html[lang^="wm"] #search input[type=text],
+html[lang^="wm"] .icon-menu .reddit-edit:before, html[lang^="wm"] .icon-menu .moderator-mail:before,
+html[lang^="wm"] .icon-menu .reddit-moderators:before, html[lang^="wm"] .icon-menu .reddit-contributors:before,
+html[lang^="wm"] .icon-menu .reddit-traffic:before, html[lang^="wm"] .icon-menu .reddit-modqueue:before,
+html[lang^="wm"] .icon-menu .reddit-reported:before, html[lang^="wm"] .icon-menu .reddit-spam:before,
+html[lang^="wm"] .icon-menu .reddit-ban:before, html[lang^="wm"] .icon-menu .reddit-flair:before,
+html[lang^="wm"] .icon-menu .reddit-moderationlog:before, html[lang^="wm"] .titlebox h6 a[href*="http://www.reddit.com#top"],
+html[lang^="wm"] .thing.stickied a.thumbnail, html[lang^="wm"] .arrow, html[lang^="wm"] .expando-button,
+html[lang^="wm"] .res-nightmode .thing .expando-button, html[lang^="wm"] .thumbnail.self, html[lang^="wm"] .thumbnail.default,
+html[lang^="wm"] .thumbnail.nsfw, html[lang^="wm"] #url-field button, html[lang^="wm"] .linkflair-mod .thumbnail,
+html[lang^="wm"] .linkflair-ftf .thumbnail, html[lang^="wm"] .RESUserTagImage,
+html[lang^="wm"].res-nightmode .titlebox h6 a[href*="http://www.reddit.com#top"], html[lang^="wm"] .res.res-nightmode .midcol .arrow,
+html[lang^="wm"] .res.res-nightmode .midcol .arrow:hover, html[lang^="wm"] .res.res-nightmode .midcol .arrow.up,
+html[lang^="wm"] .res.res-nightmode .midcol .arrow.upmod, html[lang^="wm"] .res.res-nightmode .midcol .arrow.down,
 html[lang^="wm"] .res.res-nightmode .midcol .arrow.downmod {
 	background-image:url(%%wooliespritesheet%%)!important;
 }
@@ -4648,31 +4186,17 @@ html[lang^="wm"] #mail.havemail, html[lang^="wm"] #modmail.havemail{
 	background-image:url(%%spritesheet%%)!important;
 }
 
-html[lang^="wm"] .titlebox h6 a
-
-[href*="http://www.reddit.com#top"]:hover{
+html[lang^="wm"] .titlebox h6 a[href*="http://www.reddit.com#top"]:hover{
 	border:0;
 }
 
 /*Matt Mode */ 
-html[lang^="mt"] .sidecontentbox a.helplink , html[lang^="mt"] 
-
-.titlebox h5 a,
-html[lang^="mt"] .morelink:hover, html[lang^="mt"] .subscriber 
-
-.morelink a:after,  html[lang^="mt"] titlebox h1 a:hover,
-html[lang^="mt"] .fancy-toggle-button .add, html[lang^="mt"] .submit-
-
-page .tabmenu.formtab .selected a,
-html[lang^="mt"] #RESMainGearOverlay,html[lang^="mt"] 
-
-.moduleToggle.enabled .toggleOn,
-html[lang^="mt"] .toggleButton.enabled .toggleOn, html[lang^="mt"] 
-
-.moduleToggle:not(.enabled) .toggleOff, 
-html[lang^="mt"] div.titlebox .md h3, html[lang^="mt"] .res-nightmode 
-
-div.titlebox .md h3 {
+html[lang^="mt"] .sidecontentbox a.helplink , html[lang^="mt"] .titlebox h5 a,
+html[lang^="mt"] .morelink:hover, html[lang^="mt"] .subscriber .morelink a:after,  html[lang^="mt"] titlebox h1 a:hover,
+html[lang^="mt"] .fancy-toggle-button .add, html[lang^="mt"] .submit-page .tabmenu.formtab .selected a,
+html[lang^="mt"] #RESMainGearOverlay,html[lang^="mt"] .moduleToggle.enabled .toggleOn,
+html[lang^="mt"] .toggleButton.enabled .toggleOn, html[lang^="mt"] .moduleToggle:not(.enabled) .toggleOff, 
+html[lang^="mt"] div.titlebox .md h3, html[lang^="mt"] .res-nightmode div.titlebox .md h3 {
 	background-color:#295bd3;
 }
 
@@ -4688,25 +4212,15 @@ html[lang^="mt"] #sr-header-area .drop-choices.srdrop a:hover{
 	background-color:#295bd3!important;
 }
 
-html[lang^="mt"] #sr-header-area a:hover, html[lang^="mt"] #sr-
-
-header-area .selected a,
-html[lang^="mt"] #sr-header-area .width-clip .dropdown.srdrop 
-
-.selected.title:hover, html[lang^="mt"] .side:after,
-html[lang^="mt"] a[href="#s"]:hover,html[lang^="mt"] a
-
-[href="#spoiler"]:hover , html[lang^="mt"] .titlebox h1 a:hover,
+html[lang^="mt"] #sr-header-area a:hover, html[lang^="mt"] #sr-header-area .selected a,
+html[lang^="mt"] #sr-header-area .width-clip .dropdown.srdrop .selected.title:hover, html[lang^="mt"] .side:after,
+html[lang^="mt"] a[href="#s"]:hover,html[lang^="mt"] a[href="#spoiler"]:hover , html[lang^="mt"] .titlebox h1 a:hover,
 html[lang^="mt"] .res-nightmode .titlebox h1 a:hover {
 	color:#295bd3;
 }
 
-html[lang^="mt"] .RESshortcutside, html[lang^="mt"] 
-
-.RESDashboardToggle,
-html[lang^="mt"] .res-nightmode .RESshortcutside, html[lang^="mt"] 
-
-.res-nightmode .RESDashboardToggle{
+html[lang^="mt"] .RESshortcutside, html[lang^="mt"] .RESDashboardToggle,
+html[lang^="mt"] .res-nightmode .RESshortcutside, html[lang^="mt"] .res-nightmode .RESDashboardToggle{
 	color:#295bd3!important;
 }
 
@@ -4721,12 +4235,8 @@ html[lang^="mt"] .RESSubscriptionButton{
 }
 
 html[lang^="mt"] #header, html[lang^="mt"] .res-nightmode #header{
-	background: #295bd3 url(%%mattheader%%) no-repeat 50% 0%!
-
-important;
-	background: url(%%mattheader%%) no-repeat 50% 0%, linear-
-
-gradient(to right, #1b0ed2 50%, #f70c07 50%)!important;
+	background: #295bd3 url(%%mattheader%%) no-repeat 50% 0%!important;
+	background: url(%%mattheader%%) no-repeat 50% 0%, linear-gradient(to right, #1b0ed2 50%, #f70c07 50%)!important;
 }
 
 html[lang^="mt"] #header-img {
@@ -4775,27 +4285,15 @@ html[lang^="mt"] .tabmenu li.selected a {
 	border-bottom: 2px solid #295bd3;
 }
 
-html[lang^="mt"] .tabmenu li.selected a:hover, html[lang^="mt"] .res-
-
-nightmode .tabmenu li.selected a:hover {
+html[lang^="mt"] .tabmenu li.selected a:hover, html[lang^="mt"] .res-nightmode .tabmenu li.selected a:hover {
 	border-color: #f50a07;
 }
 
-html[lang^="mt"] .morelink:active, html[lang^="mt"] .fancy-toggle-
-
-button .add:hover,
-html[lang^="mt"] .fancy-toggle-button .add:active, html[lang^="mt"] 
-
-.fancy-toggle-button .add:after,
-html[lang^="mt"] .side .titlebox .md h3:hover, html[lang^="mt"] 
-
-.titlebox h5 a:active,
-html[lang^="mt"] .sidecontentbox a.helplink:hover , html[lang^="mt"] 
-
-.sidecontentbox a.helplink:active,
-html[lang^="mt"] .titlebox h5 a:hover, html[lang^="mt"] .titlebox h5 
-
-a:active{
+html[lang^="mt"] .morelink:active, html[lang^="mt"] .fancy-toggle-button .add:hover,
+html[lang^="mt"] .fancy-toggle-button .add:active, html[lang^="mt"] .fancy-toggle-button .add:after,
+html[lang^="mt"] .side .titlebox .md h3:hover, html[lang^="mt"] .titlebox h5 a:active,
+html[lang^="mt"] .sidecontentbox a.helplink:hover , html[lang^="mt"] .sidecontentbox a.helplink:active,
+html[lang^="mt"] .titlebox h5 a:hover, html[lang^="mt"] .titlebox h5 a:active{
 	 background-color: #f50a07;
 }
 
@@ -4812,9 +4310,7 @@ html[lang^="mt"] .titlebox h6 a:hover {
 	border-bottom: 2px solid #f50a07;
 }
 
-html[lang^="mt"] .new-page .titlebox h6 a[href*="/new"], html
-
-[lang^="mt"] .top-page .titlebox h6 a[href*="/top"],
+html[lang^="mt"] .new-page .titlebox h6 a[href*="/new"], html[lang^="mt"] .top-page .titlebox h6 a[href*="/top"],
 html[lang^="mt"] .hot-page .titlebox h6 a[href*="/hot"]{
 	border-bottom:2px solid #295bd3;
 }
@@ -4834,9 +4330,7 @@ html[lang^="mt"] .submit-page button:active {
 }
 
 html[lang^="mt"] .flair {
-	background:linear-gradient(to right, #295bd3  50%, #bf201b 
-
-50%);
+	background:linear-gradient(to right, #295bd3  50%, #bf201b 50%);
 	border: 1px solid #000;
 	color: #fff !important;
 	font-family:"Verdana";
@@ -4847,21 +4341,15 @@ html[lang^="mt"] .RESSubscriptionButton:hover {
 	color: #f50a07 !important;
 }
 
-html[lang^="mt"] .titlebox .usertext .md > h1, html[lang^="mt"] .res-
-
-nightmode .titlebox .usertext .md > h1 {
+html[lang^="mt"] .titlebox .usertext .md > h1, html[lang^="mt"] .res-nightmode .titlebox .usertext .md > h1 {
 	background-color: #303030;
 	border-bottom: 1px solid #295bd3;
 }
-html[lang^="mt"] .titlebox .usertext .md > h1:after, html[lang^="mt"] 
-
-.res-nightmode .titlebox .usertext .md > h1:after {
+html[lang^="mt"] .titlebox .usertext .md > h1:after, html[lang^="mt"] .res-nightmode .titlebox .usertext .md > h1:after {
 	border-color: transparent #295bd3 transparent transparent;
 }
 
-html[lang^="mt"] div.titlebox .md ul li:hover, html[lang^="mt"] .res-
-
-nightmode div.titlebox .md ul li:hover {
+html[lang^="mt"] div.titlebox .md ul li:hover, html[lang^="mt"] .res-nightmode div.titlebox .md ul li:hover {
 	border-left: 4px solid #295bd3;
 }
 
@@ -4869,63 +4357,37 @@ html[lang^="mt"]  .res-nightmode .tabmenu li.selected a {
 	border-bottom: 2px solid #295bd3 !important;
 }
 
-html[lang^="mt"] #search input[type=text]:focus, html[lang^="mt"] 
-
-.res-nightmode #search input[type=text]:focus{
+html[lang^="mt"] #search input[type=text]:focus, html[lang^="mt"] .res-nightmode #search input[type=text]:focus{
 	border-left: 2px solid #295bd3;
 }
 
-html[lang^="mt"] .flair-pat , html[lang^="mt"] .res-nightmode .flair-
-
-pat {
-	background:  linear-gradient(to bottom,#e57226,#e57226)!
-
-important;
+html[lang^="mt"] .flair-pat , html[lang^="mt"] .res-nightmode .flair-pat {
+	background:  linear-gradient(to bottom,#e57226,#e57226)!important;
 	font-size:12px!important;
 }
 
-html[lang^="mt"] .flair-woolie , html[lang^="mt"] .res-nightmode 
-
-.flair-woolie {
-	background: linear-gradient(to bottom, #2b4f1c,  #2b4f1c)!
-
-important;
+html[lang^="mt"] .flair-woolie , html[lang^="mt"] .res-nightmode .flair-woolie {
+	background: linear-gradient(to bottom, #2b4f1c,  #2b4f1c)!important;
 	font-size:12px!important;
 }
 
-html[lang^="mt"] .flair-matt , html[lang^="mt"] .res-nightmode 
-
-.flair-matt {
-	background: linear-gradient(to bottom,  #295bd3,    #295bd3  
-
-50%,    #bf201b        50%,    #bf201b);
+html[lang^="mt"] .flair-matt , html[lang^="mt"] .res-nightmode .flair-matt {
+	background: linear-gradient(to bottom,  #295bd3,    #295bd3  50%,    #bf201b        50%,    #bf201b);
 	font-size:12px!important;
 }
 
-html[lang^="mt"] .flair-liam , html[lang^="mt"] .res-nightmode 
-
-.flair-liam {
-	background:  linear-gradient(to bottom,#ff69b4,#ff69b4)!
-
-important;
+html[lang^="mt"] .flair-liam , html[lang^="mt"] .res-nightmode .flair-liam {
+	background:  linear-gradient(to bottom,#ff69b4,#ff69b4)!important;
 	font-size:12px!important;
 }
-html[lang^="mt"] .flair-plague , html[lang^="mt"] .res-nightmode 
-
-.flair-plague {
-	background:  linear-gradient(to bottom,#2d3063,#2d3063)!
-
-important;
+html[lang^="mt"] .flair-plague , html[lang^="mt"] .res-nightmode .flair-plague {
+	background:  linear-gradient(to bottom,#2d3063,#2d3063)!important;
 	font-size:12px!important;
 }
 
 
-html[lang^="mt"] .flair-reboot , html[lang^="mt"] .res-nightmode 
-
-.flair-reboot {
-	background:linear-gradient(to bottom, #fac409 50%,	#000 
-
-50%);
+html[lang^="mt"] .flair-reboot , html[lang^="mt"] .res-nightmode .flair-reboot {
+	background:linear-gradient(to bottom, #fac409 50%,	#000 50%);
 	color: #fff!important;
 	text-shadow: 2px 0px 1px  #000;
 	font-size:12px!important;
@@ -4968,9 +4430,7 @@ html[lang^="mt"] .titlebox h1 a:after{
 	font-size:25px;
 }
 
-html[lang^="mt"]  #search,  html[lang^="mt"]  .search-page .submit-
-
-link{
+html[lang^="mt"]  #search,  html[lang^="mt"]  .search-page .submit-link{
 	padding-top:30px;
 }
 
@@ -4978,9 +4438,7 @@ html[lang^="mt"] .footer-parent{
 	background-image:url(%%mattwoolie%%);
 }
 
-html[lang^="mt"] .titlebox h5:nth-of-type(1) a, html[lang^="mt"] 
-
-.titlebox h5:nth-of-type(2) a{
+html[lang^="mt"] .titlebox h5:nth-of-type(1) a, html[lang^="mt"] .titlebox h5:nth-of-type(2) a{
 	font-size:0;
 }
 
@@ -4994,62 +4452,26 @@ html[lang^="mt"] .titlebox h5:nth-of-type(2) a:after{
 	content:"Matt's Channel";
 }
 
-html[lang^="mt"] #mail, html[lang^="mt"] #modmail, html[lang^="mt"] 
-
-#header-bottom-right a.pref-lang, html[lang^="mt"] .loggedin .logout 
-
-a,
-html[lang^="mt"] .gearIcon, html[lang^="mt"] #RESAccountSwitcherIcon, 
-
-html[lang^="mt"] #search input[type=text],
-html[lang^="mt"] .icon-menu .reddit-edit:before, html[lang^="mt"] 
-
-.icon-menu  .moderator-mail:before, 
-html[lang^="mt"] .icon-menu .reddit-moderators:before, html
-
-[lang^="mt"] .icon-menu .reddit-contributors:before,
-html[lang^="mt"] .icon-menu .reddit-traffic:before, html[lang^="mt"] 
-
-.icon-menu .reddit-modqueue:before,
-html[lang^="mt"] .icon-menu .reddit-reported:before, html[lang^="mt"] 
-
-.icon-menu .reddit-spam:before,
-html[lang^="mt"] .icon-menu .reddit-ban:before, html[lang^="mt"] 
-
-.icon-menu .reddit-flair:before,
-html[lang^="mt"] .icon-menu .reddit-moderationlog:before, html
-
-[lang^="mt"] .titlebox h6 a[href*="http://www.reddit.com#top"],
-html[lang^="mt"] .thing.stickied a.thumbnail, html[lang^="mt"] .arrow, 
-
-html[lang^="mt"] .expando-button,
-html[lang^="mt"] .res-nightmode .thing .expando-button, html
-
-[lang^="mt"] .thumbnail.self, html[lang^="mt"] .thumbnail.default,
-html[lang^="mt"] .thumbnail.nsfw, html[lang^="mt"] #url-field button, 
-
-html[lang^="mt"] .linkflair-mod .thumbnail,
-html[lang^="mt"] .linkflair-ftf .thumbnail, html[lang^="mt"] 
-
-.RESUserTagImage,
-html[lang^="mt"].res-nightmode .titlebox h6 a
-
-[href*="http://www.reddit.com#top"], html[lang^="mt"] .res.res-
-
-nightmode .midcol .arrow,
-html[lang^="mt"] .res.res-nightmode .midcol .arrow:hover, html
-
-[lang^="mt"] .res.res-nightmode .midcol .arrow.up,
-html[lang^="mt"] .res.res-nightmode .midcol .arrow.upmod, html
-
-[lang^="mt"] .res.res-nightmode .midcol .arrow.down,
+html[lang^="mt"] #mail, html[lang^="mt"] #modmail, html[lang^="mt"] #header-bottom-right a.pref-lang, html[lang^="mt"] .loggedin .logout a,
+html[lang^="mt"] .gearIcon, html[lang^="mt"] #RESAccountSwitcherIcon, html[lang^="mt"] #search input[type=text],
+html[lang^="mt"] .icon-menu .reddit-edit:before, html[lang^="mt"] .icon-menu  .moderator-mail:before, 
+html[lang^="mt"] .icon-menu .reddit-moderators:before, html[lang^="mt"] .icon-menu .reddit-contributors:before,
+html[lang^="mt"] .icon-menu .reddit-traffic:before, html[lang^="mt"] .icon-menu .reddit-modqueue:before,
+html[lang^="mt"] .icon-menu .reddit-reported:before, html[lang^="mt"] .icon-menu .reddit-spam:before,
+html[lang^="mt"] .icon-menu .reddit-ban:before, html[lang^="mt"] .icon-menu .reddit-flair:before,
+html[lang^="mt"] .icon-menu .reddit-moderationlog:before, html[lang^="mt"] .titlebox h6 a[href*="http://www.reddit.com#top"],
+html[lang^="mt"] .thing.stickied a.thumbnail, html[lang^="mt"] .arrow, html[lang^="mt"] .expando-button,
+html[lang^="mt"] .res-nightmode .thing .expando-button, html[lang^="mt"] .thumbnail.self, html[lang^="mt"] .thumbnail.default,
+html[lang^="mt"] .thumbnail.nsfw, html[lang^="mt"] #url-field button, html[lang^="mt"] .linkflair-mod .thumbnail,
+html[lang^="mt"] .linkflair-ftf .thumbnail, html[lang^="mt"] .RESUserTagImage,
+html[lang^="mt"].res-nightmode .titlebox h6 a[href*="http://www.reddit.com#top"], html[lang^="mt"] .res.res-nightmode .midcol .arrow,
+html[lang^="mt"] .res.res-nightmode .midcol .arrow:hover, html[lang^="mt"] .res.res-nightmode .midcol .arrow.up,
+html[lang^="mt"] .res.res-nightmode .midcol .arrow.upmod, html[lang^="mt"] .res.res-nightmode .midcol .arrow.down,
 html[lang^="mt"] .res.res-nightmode .midcol .arrow.downmod{
 	background-image:url(%%mattspritesheet%%)!important;
 }
 
-html[lang^="mt"] .titlebox h6 a
-
-[href*="http://www.reddit.com#top"]:hover{
+html[lang^="mt"] .titlebox h6 a[href*="http://www.reddit.com#top"]:hover{
 	border:0;
 }
 
@@ -5075,12 +4497,8 @@ html[lang^="mt"] .titlebox h6 a
 
 html[lang^="mt"] .side h4:nth-of-type(1){
 	background-repeat: repeat-y;
-	background-image: -webkit-linear-gradient(to bottom,#fff 
-
-50%,#bf201b 50%);
-	background-image: linear-gradient(to bottom,#fff 50%,#bf201b 
-
-50%);
+	background-image: -webkit-linear-gradient(to bottom,#fff 50%,#bf201b 50%);
+	background-image: linear-gradient(to bottom,#fff 50%,#bf201b 50%);
 	-webkit-animation: progress 1.4s linear infinite;
 	-moz-animation: progress 1.4s linear infinite;
 	-o-animation: progress 1.4s linear infinite;
@@ -5104,9 +4522,7 @@ html[lang^="mt"] .usertext[id$="a"] .usertext-body:after {
 }
 
 html[lang^="mt"] .usertext[id$="b"] .usertext-body:after {
-	content: "'In the last 2 hours I've gotten one thousand hate-
-
-spams.'"
+	content: "'In the last 2 hours I've gotten one thousand hate-spams.'"
 }
 
 html[lang^="mt"] .usertext[id$="c"] .usertext-body:after {
@@ -5114,9 +4530,7 @@ html[lang^="mt"] .usertext[id$="c"] .usertext-body:after {
 }
 
 html[lang^="mt"] .usertext[id$="d"] .usertext-body:after {
-	content: "'But look! I got some cool pogs: Alf pogs! Remember 
-
-Alf? He's back...in pog form!'"
+	content: "'But look! I got some cool pogs: Alf pogs! Remember Alf? He's back...in pog form!'"
 }
 
 html[lang^="mt"] .usertext[id$="e"] .usertext-body:after {
@@ -5144,23 +4558,15 @@ html[lang^="mt"] .usertext[id$="j"] .usertext-body:after {
 }
 
 html[lang^="mt"] .usertext[id$="k"] .usertext-body:after {
-	content: "'What was I laughing about? Oh, yes. That crippled 
-
-Irishman.'"
+	content: "'What was I laughing about? Oh, yes. That crippled Irishman.'"
 }
 
 html[lang^="mt"] .usertext[id$="l"] .usertext-body:after {
-	content: "'Kids, just because I don't care doesn't mean I'm 
-
-not listening.'"
+	content: "'Kids, just because I don't care doesn't mean I'm not listening.'"
 }
 
 html[lang^="mt"] .usertext[id$="m"] .usertext-body:after {
-	content: "'Hey, everybody! I'm a stupid moron with an ugly 
-
-face and big butt and my butt smells and...I like to kiss my own 
-
-butt.'"
+	content: "'Hey, everybody! I'm a stupid moron with an ugly face and big butt and my butt smells and...I like to kiss my own butt.'"
 }
 
 html[lang^="mt"] .usertext[id$="n"] .usertext-body:after {
@@ -5180,9 +4586,7 @@ html[lang^="mt"] .usertext[id$="q"] .usertext-body:after {
 }
 
 html[lang^="mt"] .usertext[id$="r"] .usertext-body:after {
-	content: "'My Homer is not a communist. He may be a liar, a 
-
-pig, an idiot, a communist, but he is not a porn star.'";
+	content: "'My Homer is not a communist. He may be a liar, a pig, an idiot, a communist, but he is not a porn star.'";
 }
 
 html[lang^="mt"] .usertext[id$="s"] .usertext-body:after {
@@ -5202,9 +4606,7 @@ html[lang^="mt"] .usertext[id$="v"] .usertext-body:after {
 }
 
 html[lang^="mt"] .usertext[id$="w"] .usertext-body:after {
-	content: "'If something’s hard to do, then it’s not worth 
-
-doing.'"
+	content: "'If something’s hard to do, then it’s not worth doing.'"
 }
 
 html[lang^="mt"] .usertext[id$="x"] .usertext-body:after {
@@ -5228,45 +4630,31 @@ html[lang^="mt"] .usertext[id$="2"] .usertext-body:after {
 }
 
 html[lang^="mt"] .usertext[id$="3"] .usertext-body:after {
-	content: "'Oh boy, dinnertime. The perfect break between work 
-
-and drunk!'"
+	content: "'Oh boy, dinnertime. The perfect break between work and drunk!'"
 }
 
 html[lang^="mt"] .usertext[id$="4"] .usertext-body:after {
-	content: "'Aren't we forgetting the true meaning of Christmas: 
-
-the birth of Santa.'"
+	content: "'Aren't we forgetting the true meaning of Christmas: the birth of Santa.'"
 }
 
 html[lang^="mt"] .usertext[id$="5"] .usertext-body:after {
-	content: "'Feels like I'm wearing nothing at all...nothing at 
-
-all...nothing at all!'"
+	content: "'Feels like I'm wearing nothing at all...nothing at all...nothing at all!'"
 }
 
 html[lang^="mt"] .usertext[id$="6"] .usertext-body:after {
-	content: "'I would kill everyone in this room for a drop of 
-
-sweet beer.'"
+	content: "'I would kill everyone in this room for a drop of sweet beer.'"
 }
 
 html[lang^="mt"] .usertext[id$="7"] .usertext-body:after {
-	content: "'Priceless like a mother's love, or the good kind of 
-
-priceless?'"
+	content: "'Priceless like a mother's love, or the good kind of priceless?'"
 }
 
 html[lang^="mt"] .usertext[id$="8"] .usertext-body:after {
-	content: "'Oh, loneliness and cheeseburgers are a dangerous 
-
-mix.'"
+	content: "'Oh, loneliness and cheeseburgers are a dangerous mix.'"
 }
 
 html[lang^="mt"] .usertext[id$="9"] .usertext-body:after {
-	content: "'To alcohol! The cause of, and solution to, all of 
-
-life's problems.'"
+	content: "'To alcohol! The cause of, and solution to, all of life's problems.'"
 }
 
 html[lang^="mt"] .usertext[id$="0"] .usertext-body:after {
@@ -5274,15 +4662,7 @@ html[lang^="mt"] .usertext[id$="0"] .usertext-body:after {
 }
 
 /*Mode Sw1tcher*/
-.titlebox .usertext  a
-
-[href*="https://www.reddit.com/r/TwoBestFriendsPlay/"], .titlebox 
-
-.usertext a
-
-[href*="https://wm.reddit.com/r/TwoBestFriendsPlay/"],.titlebox 
-
-.usertext a[href*="https://mt.reddit.com/r/TwoBestFriendsPlay/"]{
+.titlebox .usertext  a[href*="https://www.reddit.com/r/TwoBestFriendsPlay/"], .titlebox .usertext a[href*="https://wm.reddit.com/r/TwoBestFriendsPlay/"],.titlebox .usertext a[href*="https://mt.reddit.com/r/TwoBestFriendsPlay/"]{
 	display: block;
 	width: 150px;
 	height: 27px;
@@ -5302,28 +4682,20 @@ html[lang^="mt"] .usertext[id$="0"] .usertext-body:after {
 }
 
 /*Woolie mode button */
-html[lang^="wm"] .titlebox .usertext a
-
-[href*="https://wm.reddit.com/r/TwoBestFriendsPlay/"]{
+html[lang^="wm"] .titlebox .usertext a[href*="https://wm.reddit.com/r/TwoBestFriendsPlay/"]{
 	display:none;
 }
 
-.titlebox .usertext a
-
-[href*="https://wm.reddit.com/r/TwoBestFriendsPlay/"]{
+.titlebox .usertext a[href*="https://wm.reddit.com/r/TwoBestFriendsPlay/"]{
 	background-color:  #2b4f1c;
 }
 
-.titlebox .usertext a
-
-[href*="https://wm.reddit.com/r/TwoBestFriendsPlay/"]:after{
+.titlebox .usertext a[href*="https://wm.reddit.com/r/TwoBestFriendsPlay/"]:after{
 	content:"Woolie Mode";
 	font-size: 13px;
 }
 
-.titlebox .usertext a
-
-[href*="https://wm.reddit.com/r/TwoBestFriendsPlay/"]:hover{
+.titlebox .usertext a[href*="https://wm.reddit.com/r/TwoBestFriendsPlay/"]:hover{
 	background: #407629 url(%%wooliebutton%%) no-repeat;
 	background-position:-5px -10px;
 	transition: all 0.2s ease;
@@ -5331,80 +4703,52 @@ html[lang^="wm"] .titlebox .usertext a
 }
 
 /*Matt mode button */
-html[lang^="mt"] .titlebox .usertext a
-
-[href*="https://mt.reddit.com/r/TwoBestFriendsPlay/"]{
+html[lang^="mt"] .titlebox .usertext a[href*="https://mt.reddit.com/r/TwoBestFriendsPlay/"]{
 	display:none;
 }
 
-.titlebox .usertext a
-
-[href*="https://mt.reddit.com/r/TwoBestFriendsPlay/"]{
-	background-image: linear-gradient(to bottom, #295bd3 
-
-50%,#bf201b 50%);
+.titlebox .usertext a[href*="https://mt.reddit.com/r/TwoBestFriendsPlay/"]{
+	background-image: linear-gradient(to bottom, #295bd3 50%,#bf201b 50%);
 }
 
-.titlebox .usertext a
-
-[href*="https://mt.reddit.com/r/TwoBestFriendsPlay/"]:after{
+.titlebox .usertext a[href*="https://mt.reddit.com/r/TwoBestFriendsPlay/"]:after{
 	content:"Matt Mode";
 	font-size: 13px;
 }
 
-.titlebox .usertext a
-
-[href*="https://mt.reddit.com/r/TwoBestFriendsPlay/"]:hover{
-	background:  url(%%mattbutton%%) no-repeat, linear-gradient(to 
-
-bottom, #295bd3 50%,#bf201b 50%);
+.titlebox .usertext a[href*="https://mt.reddit.com/r/TwoBestFriendsPlay/"]:hover{
+	background:  url(%%mattbutton%%) no-repeat, linear-gradient(to bottom, #295bd3 50%,#bf201b 50%);
 	background-position:-2px -7px;
 	transition: all 0.2s ease;
 	text-decoration:none;
 }
 /*Normal mode button */
-.titlebox .usertext  a
-
-[href*="https://www.reddit.com/r/TwoBestFriendsPlay/"]{
+.titlebox .usertext  a[href*="https://www.reddit.com/r/TwoBestFriendsPlay/"]{
 	display:none;
 }
 
 
-html[lang^="wm"]  .titlebox .usertext 
-
-[href*="https://www.reddit.com/r/TwoBestFriendsPlay/"], html
-
-[lang^="mt"]  .titlebox .usertext 
-
-[href*="https://www.reddit.com/r/TwoBestFriendsPlay/"]{
+html[lang^="wm"]  .titlebox .usertext [href*="https://www.reddit.com/r/TwoBestFriendsPlay/"], html[lang^="mt"]  .titlebox .usertext [href*="https://www.reddit.com/r/TwoBestFriendsPlay/"]{
 	display:block;
 }
 
-.titlebox .usertext a
-
-[href*="https://www.reddit.com/r/TwoBestFriendsPlay/"]{
+.titlebox .usertext a[href*="https://www.reddit.com/r/TwoBestFriendsPlay/"]{
 	background-color:  #f99c18;
 	background-image: none;
 }
 
-html[lang^="wm"]  .titlebox .usertext a
-
-[href*="https://www.reddit.com/r/TwoBestFriendsPlay/"]:after{
+html[lang^="wm"]  .titlebox .usertext a[href*="https://www.reddit.com/r/TwoBestFriendsPlay/"]:after{
 	content:"Escape";
 	font-size: 13px;
 }
 
 
-html[lang^="mt"]  .titlebox .usertext a
-
-[href*="https://www.reddit.com/r/TwoBestFriendsPlay/"]:after{
+html[lang^="mt"]  .titlebox .usertext a[href*="https://www.reddit.com/r/TwoBestFriendsPlay/"]:after{
 	content:"Dehype";
 	font-size: 13px;
 }
 
-.titlebox .usertext a
-
-[href*="https://www.reddit.com/r/TwoBestFriendsPlay/"]:hover{
+.titlebox .usertext a[href*="https://www.reddit.com/r/TwoBestFriendsPlay/"]:hover{
 	transition: all 0.2s ease;
 	background-color: #fcd870;
 	text-decoration:none;
