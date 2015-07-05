@@ -4046,31 +4046,18 @@ html[lang^="wm"] .res.res-nightmode .midcol .arrow.downmod {
 	width: 34px!important;
 }
 
-html[lang^="wm"] .flair-pat , html[lang^="wm"] .res-nightmode .flair-pat {
-	background:  linear-gradient(to bottom,#e57226,#e57226)!important;
+html[lang^="wm"] .flair-pat , html[lang^="wm"] .res-nightmode .flair-pat,
+html[lang^="wm"] .flair-woolie , html[lang^="wm"] .res-nightmode .flair-woolie,
+html[lang^="wm"] .flair-liam , html[lang^="wm"] .res-nightmode .flair-liam,
+html[lang^="wm"] .flair-plague , html[lang^="wm"] .res-nightmode .flair-plague {
+	background-image: none!important;
 	text-shadow: none;
 	font-size:12px!important;
 }
 
-html[lang^="wm"] .flair-woolie , html[lang^="wm"] .res-nightmode .flair-woolie {
-	background: linear-gradient(to bottom, #2b4f1c,  #2b4f1c)!important;
-	text-shadow: none;
-	font-size:12px!important;
-}
 
 html[lang^="wm"] .flair-matt , html[lang^="wm"] .res-nightmode .flair-matt {
 	background: linear-gradient(to bottom,  #295bd3,    #295bd3  50%,    #bf201b        50%,    #bf201b);
-	text-shadow: none;
-	font-size:12px!important;
-}
-
-html[lang^="wm"] .flair-liam , html[lang^="wm"] .res-nightmode .flair-liam {
-	background:  linear-gradient(to bottom,#ff69b4,#ff69b4)!important;
-	text-shadow: none;
-	font-size:12px!important;
-}
-html[lang^="wm"] .flair-plague , html[lang^="wm"] .res-nightmode .flair-plague {
-	background:  linear-gradient(to bottom,#2d3063,#2d3063)!important;
 	text-shadow: none;
 	font-size:12px!important;
 }
@@ -4361,13 +4348,11 @@ html[lang^="mt"] #search input[type=text]:focus, html[lang^="mt"] .res-nightmode
 	border-left: 2px solid #295bd3;
 }
 
-html[lang^="mt"] .flair-pat , html[lang^="mt"] .res-nightmode .flair-pat {
-	background:  linear-gradient(to bottom,#e57226,#e57226)!important;
-	font-size:12px!important;
-}
-
-html[lang^="mt"] .flair-woolie , html[lang^="mt"] .res-nightmode .flair-woolie {
-	background: linear-gradient(to bottom, #2b4f1c,  #2b4f1c)!important;
+html[lang^="mt"] .flair-pat , html[lang^="mt"] .res-nightmode .flair-pat,
+html[lang^="mt"] .flair-woolie , html[lang^="mt"] .res-nightmode .flair-woolie,
+html[lang^="mt"] .flair-liam , html[lang^="mt"] .res-nightmode .flair-liam,
+html[lang^="mt"] .flair-plague , html[lang^="mt"] .res-nightmode .flair-plague {
+	background-image: none!important;
 	font-size:12px!important;
 }
 
@@ -4376,19 +4361,8 @@ html[lang^="mt"] .flair-matt , html[lang^="mt"] .res-nightmode .flair-matt {
 	font-size:12px!important;
 }
 
-html[lang^="mt"] .flair-liam , html[lang^="mt"] .res-nightmode .flair-liam {
-	background:  linear-gradient(to bottom,#ff69b4,#ff69b4)!important;
-	font-size:12px!important;
-}
-html[lang^="mt"] .flair-plague , html[lang^="mt"] .res-nightmode .flair-plague {
-	background:  linear-gradient(to bottom,#2d3063,#2d3063)!important;
-	font-size:12px!important;
-}
-
-
 html[lang^="mt"] .flair-reboot , html[lang^="mt"] .res-nightmode .flair-reboot {
-	background:linear-gradient(to bottom, #fac409 50%,	#000 50%);
-	color: #fff!important;
+	background:linear-gradient(to bottom, #fac409 50%, #000 50%);
 	text-shadow: 2px 0px 1px  #000;
 	font-size:12px!important;
 }
