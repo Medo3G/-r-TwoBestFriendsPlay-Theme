@@ -1814,14 +1814,14 @@ form#newlink.submit.content {
 }
 
 .linkflair-video .linkflairlabel {
-	background-color: #fac409;
-	background:linear-gradient(to bottom,#fac409 50%,#000 50%);
+	background-color: #fac409!important;
+	background:linear-gradient(to bottom,#fac409 50%,#000 50%)!important;
 	color: #fff!important;
 	text-shadow: 2px 0 1px #000;
 }
 
 .linkflair-podcast .linkflairlabel {
-	background-color: #852bc1;
+	background-color: #852bc1!important;
 	color: #fff!important;
 }
 /* USER FLAIRS */
