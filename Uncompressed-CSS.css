@@ -1786,7 +1786,7 @@ form#newlink.submit.content {
 
 .linkflair-mod .thumbnail {
 	background-image: url(%%spritesheet%%)!important;
-	background-position: -119px -140px!important;
+	background-position: -119px -81px!important;
 	background-repeat: no-repeat;	
 	width: 53px!important;
 	height: 53px!important;
@@ -3418,16 +3418,6 @@ div.titlebox .md h4:before {
 	background-position: 0 -150px;
 }
 
-/* Nightmode Aliens*/
-.res-nightmode .titlebox h6 a[href*="http://www.reddit.com#top"] {
-	background-image: url(%%spritesheet%%);
-	background-position: -106px -103px;
-}
-
-.res-nightmode .titlebox h6 a[href*="http://www.reddit.com#top"]:hover {
-	background-position: -141px -103px;
-}
-
 /* Nightmode Fixed Scroll Banner */
 .res-nightmode .titlebox h6 {
 	background-color: #1c1f26;
@@ -3701,48 +3691,55 @@ a[href$="/spoiler"][title]::before {
 	color: #fff!important;
 }
 
-.listing-page .linkflair-spoilers .thumbnail {
-	width: 76px;
-	height: 74px;
-	background-image: url(%%spritesheet%%);
-	background-position: -2px -142px;
+.linkflair-spoilers .thumbnail {
+	width: 75px;
+	height: 75px;
+	background-image: url(%%spritesheet%%)!important;
+	background-position: -101px -140px!important;
 	background-repeat: no-repeat;
 }
 
-.listing-page .linkflair-spoilers .thumbnail img {
-	opacity:0;
-	transition: .3s ease
+.linkflair-spoilers .thumbnail img {
+	display:none;
 }
 
-.listing-page .linkflair-spoilers a.title  {
+.linkflair-spoilers a.title  {
 	background-color: #000;
 	color: #000!important;
 	transition: .3s ease
 }
 
-.listing-page .linkflair-spoilers a.title:hover {
+.linkflair-spoilers a.title:hover, .comments-page .linkflair-spoilers a.title {
 	background-color: transparent!important;
 	color:#5b92fa!important;
 	transition: .3s ease
 }
 
-.res-nightmode .listing-page .linkflair-spoilers a.title:hover {
-	color:#fff!important
+.res-nightmode .linkflair-spoilers a.title:hover, .res-nightmode .comments-page .linkflair-spoilers a.title {
+	color:#EBEBEB!important
 }
 
-.listing-page .linkflair-spoilers .thumbnail:hover {
-	background-position:999px;
-
+.res-nightmode #siteTable .linkflair-spoilers .visited .title.loggedin,
+.res-nightmode #siteTable .linkflair-spoilers .title.loggedin:visited,
+.res-nightmode #siteTable .linkflair-spoilers .title:visited,
+.res-nightmode #siteTable .linkflair-spoilers .title.loggedin.click,
+.res-nightmode .organic-listing .linkflair-spoilers .title:visited,
+.res-nightmode .linkflair-spoilers .RES-keyNav-activeElement a.title:first-of-type{
+	color: #000!important;
 }
 
-.listing-page .linkflair-spoilers .thumbnail:hover img{
-	opacity:1!important;
+.res-nightmode #siteTable .linkflair-spoilers .visited .title.loggedin:hover,
+.res-nightmode #siteTable .linkflair-spoilers .title.loggedin:visited:hover,
+.res-nightmode #siteTable .linkflair-spoilers .title:visited:hover,
+.res-nightmode #siteTable .linkflair-spoilers .title.loggedin.click:hover,
+.res-nightmode .organic-listing .linkflair-spoilers .title:visited:hover{
+	color: #6A7A88!important;
 }
 
-.listing-page .linkflair-spoilers .thumbnail.self:hover {
-	background-position: -2px -142px;
+.res-nightmode .linkflair-spoilers .RES-keyNav-activeElement a.title:first-of-type:hover,
+.res-nightmode .comments-page .linkflair-spoilers .RES-keyNav-activeElement a.title:first-of-type{
+	color:#ddd!important;
 }
-
 /* Greentext */
 .content .md h1, .content .md h1 del {
 	color: #789922;
@@ -3996,7 +3993,7 @@ html[lang^="wm"] .thumbnail.self {
 html[lang^="wm"] .thumbnail.nsfw {
 	width: 74px;
 	height: 77px;
-	background-position: -93px -212px;
+	background-position: -94px -217px;
 }
 
 html[lang^="wm"] .formtabs-content {
@@ -4011,10 +4008,6 @@ html[lang^="wm"] .submit-page button:hover {
 html[lang^="wm"] .submit-page button:active {
 	background-color: #407629;
 	border-bottom-color: #407629 !important;
-}
-
-html[lang^="wm"] .linkflair-mod .thumbnail {
-	background-position: -119px -139px!important;
 }
 
 html[lang^="wm"] .linkflair-ftf .thumbnail {
@@ -4220,16 +4213,11 @@ html[lang^="wm"] .icon-menu .reddit-moderationlog:before, html[lang^="wm"] .titl
 html[lang^="wm"] .thing.stickied a.thumbnail, html[lang^="wm"] .arrow, html[lang^="wm"] .expando-button,
 html[lang^="wm"] .res-nightmode .thing .expando-button, html[lang^="wm"] .thumbnail.self, html[lang^="wm"] .thumbnail.default,
 html[lang^="wm"] .thumbnail.nsfw, html[lang^="wm"] #url-field button, html[lang^="wm"] .linkflair-mod .thumbnail,
-html[lang^="wm"] .linkflair-ftf .thumbnail, html[lang^="wm"] .RESUserTagImage,
-html[lang^="wm"].res-nightmode .titlebox h6 a[href*="http://www.reddit.com#top"], html[lang^="wm"] .res.res-nightmode .midcol .arrow,
+html[lang^="wm"] .linkflair-ftf .thumbnail, html[lang^="wm"] .RESUserTagImage, html[lang^="wm"] .res.res-nightmode .midcol .arrow,
 html[lang^="wm"] .res.res-nightmode .midcol .arrow:hover, html[lang^="wm"] .res.res-nightmode .midcol .arrow.up,
 html[lang^="wm"] .res.res-nightmode .midcol .arrow.upmod, html[lang^="wm"] .res.res-nightmode .midcol .arrow.down,
 html[lang^="wm"] .res.res-nightmode .midcol .arrow.downmod, html[lang^="wm"] .listing-page .linkflair-spoilers .thumbnail {
 	background-image:url(%%wooliespritesheet%%)!important;
-}
-
-html[lang^="wm"] #mail.havemail, html[lang^="wm"] #modmail.havemail{
-	background-image:url(%%spritesheet%%)!important;
 }
 
 html[lang^="wm"] .titlebox h6 a[href*="http://www.reddit.com#top"]:hover{
@@ -4496,8 +4484,7 @@ html[lang^="mt"] .icon-menu .reddit-moderationlog:before, html[lang^="mt"] .titl
 html[lang^="mt"] .thing.stickied a.thumbnail, html[lang^="mt"] .arrow, html[lang^="mt"] .expando-button,
 html[lang^="mt"] .res-nightmode .thing .expando-button, html[lang^="mt"] .thumbnail.self, html[lang^="mt"] .thumbnail.default,
 html[lang^="mt"] .thumbnail.nsfw, html[lang^="mt"] #url-field button, html[lang^="mt"] .linkflair-mod .thumbnail,
-html[lang^="mt"] .linkflair-ftf .thumbnail, html[lang^="mt"] .RESUserTagImage,
-html[lang^="mt"].res-nightmode .titlebox h6 a[href*="http://www.reddit.com#top"], html[lang^="mt"] .res.res-nightmode .midcol .arrow,
+html[lang^="mt"] .linkflair-ftf .thumbnail, html[lang^="mt"] .RESUserTagImage, html[lang^="mt"] .res.res-nightmode .midcol .arrow,
 html[lang^="mt"] .res.res-nightmode .midcol .arrow:hover, html[lang^="mt"] .res.res-nightmode .midcol .arrow.up,
 html[lang^="mt"] .res.res-nightmode .midcol .arrow.upmod, html[lang^="mt"] .res.res-nightmode .midcol .arrow.down,
 html[lang^="mt"] .res.res-nightmode .midcol .arrow.downmod, html[lang^="mt"] .listing-page .linkflair-spoilers .thumbnail{
