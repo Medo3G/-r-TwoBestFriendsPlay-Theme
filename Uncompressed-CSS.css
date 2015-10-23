@@ -4188,7 +4188,7 @@ html[lang^="wm"] .side h4:nth-of-type(1):after{
 	content: "I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride  | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride | I wanna take you for a ride";
 }
 
-html[lang^="wm"] .titlebox h5:nth-of-type(1) a, html[lang^="wm"] .titlebox h5:nth-of-type(2) a{
+html[lang^="wm"] .titlebox h5:nth-of-type(1) a, html[lang^="wm"] .titlebox h5:nth-of-type(2) a, html[lang^="wm"] .titlebox h5:nth-of-type(3) a{
 	font-size:0;
 }
 
@@ -4200,6 +4200,12 @@ html[lang^="wm"] .titlebox h5:nth-of-type(1) a:after{
 html[lang^="wm"] .titlebox h5:nth-of-type(2) a:after{
 	font-size:18px;
 	content:"Needs More Salt Channel";
+}
+
+
+html[lang^="wm"] .titlebox h5:nth-of-type(3) a:after{
+	font-size:18px;
+	content:"Early Salt Channel";
 }
 
 html[lang^="wm"] #mail, html[lang^="wm"] #modmail, html[lang^="wm"] #header-bottom-right a.pref-lang, html[lang^="wm"] .loggedin .logout a,
@@ -4459,7 +4465,7 @@ html[lang^="mt"] .footer-parent{
 	background-image:url(%%mattwoolie%%);
 }
 
-html[lang^="mt"] .titlebox h5:nth-of-type(1) a, html[lang^="mt"] .titlebox h5:nth-of-type(2) a{
+html[lang^="mt"] .titlebox h5:nth-of-type(1) a, html[lang^="mt"] .titlebox h5:nth-of-type(2) a, html[lang^="mt"] .titlebox h5:nth-of-type(3) a{
 	font-size:0;
 }
 
@@ -4471,6 +4477,11 @@ html[lang^="mt"] .titlebox h5:nth-of-type(1) a:after{
 html[lang^="mt"] .titlebox h5:nth-of-type(2) a:after{
 	font-size:18px;
 	content:"Matt's Channel";
+}
+
+html[lang^="mt"] .titlebox h5:nth-of-type(3) a:after{
+	font-size:18px;
+	content:"Rocky's Channel";
 }
 
 html[lang^="mt"] #mail, html[lang^="mt"] #modmail, html[lang^="mt"] #header-bottom-right a.pref-lang, html[lang^="mt"] .loggedin .logout a,
