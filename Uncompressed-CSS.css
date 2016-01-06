@@ -3686,12 +3686,12 @@ a[href$="/spoiler"][title]::before {
 }
 
 /* Spoiler post */
-.linkflair-spoilers .linkflairlabel {
+.linkflair-spoilers .linkflairlabel, .linkflair-spoiler .linkflairlabel {
 	background-color: #000!important;
 	color: #fff!important;
 }
 
-.linkflair-spoilers .thumbnail {
+.linkflair-spoilers .thumbnail, .linkflair-spoiler .thumbnail {
 	width: 75px;
 	height: 75px;
 	background-image: url(%%spritesheet%%)!important;
@@ -3699,7 +3699,7 @@ a[href$="/spoiler"][title]::before {
 	background-repeat: no-repeat;
 }
 
-.linkflair-spoilers .thumbnail img {
+.linkflair-spoilers .thumbnail img, .linkflair-spoiler .thumbnail img {
 	display:none;
 }
 
@@ -4222,7 +4222,8 @@ html[lang^="wm"] .thumbnail.nsfw, html[lang^="wm"] #url-field button, html[lang^
 html[lang^="wm"] .linkflair-ftf .thumbnail, html[lang^="wm"] .RESUserTagImage, html[lang^="wm"] .res.res-nightmode .midcol .arrow,
 html[lang^="wm"] .res.res-nightmode .midcol .arrow:hover, html[lang^="wm"] .res.res-nightmode .midcol .arrow.up,
 html[lang^="wm"] .res.res-nightmode .midcol .arrow.upmod, html[lang^="wm"] .res.res-nightmode .midcol .arrow.down,
-html[lang^="wm"] .res.res-nightmode .midcol .arrow.downmod, html[lang^="wm"] .listing-page .linkflair-spoilers .thumbnail {
+html[lang^="wm"] .res.res-nightmode .midcol .arrow.downmod, html[lang^="wm"] .listing-page .linkflair-spoilers .thumbnail,
+html[lang^="wm"] .listing-page .linkflair-spoiler .thumbnail{
 	background-image:url(%%wooliespritesheet%%)!important;
 }
 
@@ -4498,7 +4499,8 @@ html[lang^="mt"] .thumbnail.nsfw, html[lang^="mt"] #url-field button, html[lang^
 html[lang^="mt"] .linkflair-ftf .thumbnail, html[lang^="mt"] .RESUserTagImage, html[lang^="mt"] .res.res-nightmode .midcol .arrow,
 html[lang^="mt"] .res.res-nightmode .midcol .arrow:hover, html[lang^="mt"] .res.res-nightmode .midcol .arrow.up,
 html[lang^="mt"] .res.res-nightmode .midcol .arrow.upmod, html[lang^="mt"] .res.res-nightmode .midcol .arrow.down,
-html[lang^="mt"] .res.res-nightmode .midcol .arrow.downmod, html[lang^="mt"] .listing-page .linkflair-spoilers .thumbnail{
+html[lang^="mt"] .res.res-nightmode .midcol .arrow.downmod, html[lang^="mt"] .listing-page .linkflair-spoilers .thumbnail,
+html[lang^="mt"] .listing-page .linkflair-spoiler .thumbnail{
 	background-image:url(%%mattspritesheet%%)!important;
 }
 
