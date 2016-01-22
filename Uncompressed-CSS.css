@@ -638,24 +638,6 @@ a:hover {
 	color: #333;
 }
 
-/* Sub notice */
-.fancy-toggle-button .add:after {
-	position: fixed;
-	top: 4px;
-	right: 25px;
-	z-index: 98;
-	background-color: #f9c25d;
-	color: #FFF;
-	content: "Subscribe Now";
-	padding: 0 16px;
-}
-
-.fancy-toggle-button .add:hover:after {
-	background-color: #f9b918;
-	border-bottom: 3px solid #fcd973 ;
-	height: 23px;
-}
-
 /*Replace readers.. */
 div.titlebox span.word {
 	display: none;
@@ -1434,6 +1416,10 @@ a.pretty-button.positive {
 	color: #89B3FF;
 }
 
+.reddit-infobar.with-icon{
+	margin-right:320px;
+}
+
 /* First time visit infobar */
 .infobar.welcome {
 	margin-right: 321px;
@@ -1823,6 +1809,11 @@ form#newlink.submit.content {
 .linkflair-podcast .linkflairlabel {
 	background-color: #852bc1!important;
 	color: #fff!important;
+}
+
+.linkflair-machinima .linkflairlabel {
+	background-color: #9A1B1F !important;
+	color: #000!important;
 }
 /* USER FLAIRS */
 .flair {
@@ -2456,8 +2447,7 @@ div.over18 .entry .buttons .first{
 	outline: 0 solid;
 }
 
-.res .RES-keyNav-activeElement, .res .commentarea .RES-keyNav-activeElement .md,
-.res .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+html .RES-keyNav-activeElement, html .RES-keyNav-activeElement .md-container {
 	background-color: transparent !important;
 }
 
@@ -2514,9 +2504,9 @@ html .comments-page .comment .comment .comment .comment .comment .comment .comme
 	border:0!important;
 }
 
-#RESPrefsDropdown.RESDropdownList, #RESAccountSwitcherDropdown {
-	background-color: rgba(0,0,0,0.9);
-	border:none;
+.RESDropdownList {
+	background-color: rgba(0,0,0,0.9)!important;
+	border-color: #000!important;
 	color: #fff !important;
 }
 #RESMainGearOverlay{
@@ -2532,11 +2522,6 @@ html .comments-page .comment .comment .comment .comment .comment .comment .comme
 #RESSearchMenuItem:hover {
 	border-color: #fff!important;
 	background-color: #000;
-}
-
-.moduleToggle.enabled .toggleOn, .toggleButton.enabled .toggleOn,
-.moduleToggle:not(.enabled) .toggleOff  {
- 	background-color: #f9b918;
 }
 
 .RESshortcutside.remove {
@@ -2618,10 +2603,6 @@ html .comments-page .comment .comment .comment .comment .comment .comment .comme
 	z-index: 100;
 }
 
-.res .fancy-toggle-button .add:after {
-	right: 50px !important;
-}
-
 /*RES Post Subscription button*/
 .RESSubscriptionButton {
 	background-color: #fff;
@@ -2683,7 +2664,7 @@ html .comments-page .comment .comment .comment .comment .comment .comment .comme
 /*RES Tag*/
 .RESUserTagImage, .md .RESUserTagImage {
 	height:10px!important;
-	background-image:url(%%spritesheet%%)!important;
+/*	background-image:url(%%spritesheet%%)!important; */ /* disabled here and in the other modes */
 	background-position:-34px -3px!important;
 	opacity:.25!important;
 	margin-left:2px!important;
@@ -3280,6 +3261,15 @@ div.titlebox .md h4:before {
 	border-color: #222;
 }
 
+/* Unsupported by reddit, waiting for RES fix */
+/*
+.res-nightmode .expando-button, .res-nightmode res-showImages-highlightNSFWButton .thing.over18 .expando-button,
+.res-nightmode .thumbnail.self, .res-nightmode .guiders_arrow{
+	filter:none!important;
+}
+*/
+
+
 /*Nightmode Sidebar Headings */
 .res-nightmode .titlebox .usertext .md > h1 {
 	border-bottom: 1px solid #265268;
@@ -3830,9 +3820,8 @@ div.titlebox .users-online span.number:after {
 html[lang^="wm"] .titlebox h5 a, html[lang^="wm"] .sidecontentbox a.helplink,
 html[lang^="wm"] .morelink:hover, html[lang^="wm"] .subscriber .morelink a:after, html[lang^="wm"] titlebox h1 a:hover,
 html[lang^="wm"] .fancy-toggle-button .add, html[lang^="wm"] .submit-page .tabmenu.formtab .selected a,
-html[lang^="wm"] #RESMainGearOverlay, html[lang^="wm"] .moduleToggle.enabled .toggleOn,
-html[lang^="wm"] .toggleButton.enabled .toggleOn, html[lang^="wm"] .moduleToggle:not(.enabled) .toggleOff,
-html[lang^="wm"] div.titlebox .md h3, html[lang^="wm"] .res-nightmode div.titlebox .md h3 {
+html[lang^="wm"] #RESMainGearOverlay, html[lang^="wm"] div.titlebox .md h3,
+html[lang^="wm"] .res-nightmode div.titlebox .md h3 {
 	background-color:#2b4f1c;
 }
 
@@ -3930,9 +3919,9 @@ html[lang^="wm"] .tabmenu li.selected a:hover, html[lang^="wm"] .res-nightmode .
 }
 
 html[lang^="wm"] .morelink:active, html[lang^="wm"] .fancy-toggle-button .add:hover,
-html[lang^="wm"] .fancy-toggle-button .add:active, html[lang^="wm"] .fancy-toggle-button .add:after,
-html[lang^="wm"] .side .titlebox .md h3:hover,html[lang^="wm"] .sidecontentbox a.helplink:hover , 
-html[lang^="wm"] .sidecontentbox a.helplink:active, html[lang^="wm"] .titlebox h5 a:hover {
+html[lang^="wm"] .fancy-toggle-button .add:active, html[lang^="wm"] .side .titlebox .md h3:hover,
+html[lang^="wm"] .sidecontentbox a.helplink:hover , html[lang^="wm"] .sidecontentbox a.helplink:active,
+html[lang^="wm"] .titlebox h5 a:hover {
 	 background-color: #407629;
 }
 
@@ -4219,7 +4208,7 @@ html[lang^="wm"] .icon-menu .reddit-moderationlog:before, html[lang^="wm"] .titl
 html[lang^="wm"] .thing.stickied a.thumbnail, html[lang^="wm"] .arrow, html[lang^="wm"] .expando-button,
 html[lang^="wm"] .res-nightmode .thing .expando-button, html[lang^="wm"] .thumbnail.self, html[lang^="wm"] .thumbnail.default,
 html[lang^="wm"] .thumbnail.nsfw, html[lang^="wm"] #url-field button, html[lang^="wm"] .linkflair-mod .thumbnail,
-html[lang^="wm"] .linkflair-ftf .thumbnail, html[lang^="wm"] .RESUserTagImage, html[lang^="wm"] .res.res-nightmode .midcol .arrow,
+html[lang^="wm"] .linkflair-ftf .thumbnail,/* html[lang^="wm"] .RESUserTagImage , */ html[lang^="wm"] .res.res-nightmode .midcol .arrow,
 html[lang^="wm"] .res.res-nightmode .midcol .arrow:hover, html[lang^="wm"] .res.res-nightmode .midcol .arrow.up,
 html[lang^="wm"] .res.res-nightmode .midcol .arrow.upmod, html[lang^="wm"] .res.res-nightmode .midcol .arrow.down,
 html[lang^="wm"] .res.res-nightmode .midcol .arrow.downmod, html[lang^="wm"] .listing-page .linkflair-spoilers .thumbnail,
@@ -4235,9 +4224,8 @@ html[lang^="wm"] .titlebox h6 a[href*="http://www.reddit.com#top"]:hover{
 html[lang^="mt"] .sidecontentbox a.helplink , html[lang^="mt"] .titlebox h5 a,
 html[lang^="mt"] .morelink:hover, html[lang^="mt"] .subscriber .morelink a:after,  html[lang^="mt"] titlebox h1 a:hover,
 html[lang^="mt"] .fancy-toggle-button .add, html[lang^="mt"] .submit-page .tabmenu.formtab .selected a,
-html[lang^="mt"] #RESMainGearOverlay,html[lang^="mt"] .moduleToggle.enabled .toggleOn,
-html[lang^="mt"] .toggleButton.enabled .toggleOn, html[lang^="mt"] .moduleToggle:not(.enabled) .toggleOff, 
-html[lang^="mt"] div.titlebox .md h3, html[lang^="mt"] .res-nightmode div.titlebox .md h3 {
+html[lang^="mt"] #RESMainGearOverlay, html[lang^="mt"] div.titlebox .md h3,
+html[lang^="mt"] .res-nightmode div.titlebox .md h3 {
 	background-color:#295bd3;
 }
 
@@ -4331,16 +4319,11 @@ html[lang^="mt"] .tabmenu li.selected a:hover, html[lang^="mt"] .res-nightmode .
 }
 
 html[lang^="mt"] .morelink:active, html[lang^="mt"] .fancy-toggle-button .add:hover,
-html[lang^="mt"] .fancy-toggle-button .add:active, html[lang^="mt"] .fancy-toggle-button .add:after,
-html[lang^="mt"] .side .titlebox .md h3:hover, html[lang^="mt"] .titlebox h5 a:active,
-html[lang^="mt"] .sidecontentbox a.helplink:hover , html[lang^="mt"] .sidecontentbox a.helplink:active,
-html[lang^="mt"] .titlebox h5 a:hover, html[lang^="mt"] .titlebox h5 a:active{
+html[lang^="mt"] .fancy-toggle-button .add:active, html[lang^="mt"] .side .titlebox .md h3:hover,
+html[lang^="mt"] .titlebox h5 a:active, html[lang^="mt"] .sidecontentbox a.helplink:hover ,
+html[lang^="mt"] .sidecontentbox a.helplink:active, html[lang^="mt"] .titlebox h5 a:hover,
+html[lang^="mt"] .titlebox h5 a:active{
 	 background-color: #f50a07;
-}
-
-html[lang^="mt"] .fancy-toggle-button .add:hover:after {
-	background-color: #295bd3;
-	border-bottom: 3px solid #f50a07;
 }
 
 html[lang^="mt"] div.titlebox span.word {
@@ -4496,7 +4479,7 @@ html[lang^="mt"] .icon-menu .reddit-moderationlog:before, html[lang^="mt"] .titl
 html[lang^="mt"] .thing.stickied a.thumbnail, html[lang^="mt"] .arrow, html[lang^="mt"] .expando-button,
 html[lang^="mt"] .res-nightmode .thing .expando-button, html[lang^="mt"] .thumbnail.self, html[lang^="mt"] .thumbnail.default,
 html[lang^="mt"] .thumbnail.nsfw, html[lang^="mt"] #url-field button, html[lang^="mt"] .linkflair-mod .thumbnail,
-html[lang^="mt"] .linkflair-ftf .thumbnail, html[lang^="mt"] .RESUserTagImage, html[lang^="mt"] .res.res-nightmode .midcol .arrow,
+html[lang^="mt"] .linkflair-ftf .thumbnail,/* html[lang^="mt"] .RESUserTagImage, */ html[lang^="mt"] .res.res-nightmode .midcol .arrow,
 html[lang^="mt"] .res.res-nightmode .midcol .arrow:hover, html[lang^="mt"] .res.res-nightmode .midcol .arrow.up,
 html[lang^="mt"] .res.res-nightmode .midcol .arrow.upmod, html[lang^="mt"] .res.res-nightmode .midcol .arrow.down,
 html[lang^="mt"] .res.res-nightmode .midcol .arrow.downmod, html[lang^="mt"] .listing-page .linkflair-spoilers .thumbnail,
